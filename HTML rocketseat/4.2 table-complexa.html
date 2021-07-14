@@ -5,7 +5,7 @@
 
 <table>
   <caption>
-    Produzidos vs Vendidos
+    Produzidos vs Vendidos das waifus
   </caption>
 
   <!-- 
@@ -29,17 +29,17 @@
 *    Aqui tanto a linha como coluna estão sendo expandidos em 2 para ajustar a tabela;
 -->
       <th rowspan="2"></th>
-      <th colspan="2">Mayucchi</th>
-      <th colspan="2">Kri</th>
+      <th colspan="2" scope="rowgroup">Mayucchi</th> <!-- * scrope="rowgroup"(Agrupamento de colunas) Ajuda na usabilidade; -->
+      <th colspan="2" scope="rowgroup">Kri</th> 
     </tr>
     <!-- 
     "Menu";
 -->
     <tr>
-      <th>Produzidos</th>
-      <th>Vendidos</th>
-      <th>Produzidos</th>
-      <th>Vendidos</th>
+      <th scope="col">Produzidos</th> <!-- * scope="col" (Coluna) Ajuda na usabilidade -->
+      <th scope="col">Vendidos</th>
+      <th scope="col"> Produzidos</th>
+      <th scope="col">Vendidos</th>
     </tr>
   </thead>
   <!-- 
@@ -47,7 +47,7 @@
 -->
   <tbody>
     <tr>
-      <th>Vassouras</th>
+      <th scope="row">Vassouras</th> <!-- * scope="row" (Linha) Ajuda na usabilidade -->
       <td>50</td>
       <td>30</td>
       <td>20</td>
@@ -55,7 +55,7 @@
     </tr>
 
     <tr>
-      <th>Baldes</th>
+      <th scope="row">Baldes</th>
       <td>30</td>
       <td>40</td>
       <td>60</td>
