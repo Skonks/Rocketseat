@@ -8,16 +8,33 @@
     Produzidos vs Vendidos
   </caption>
 
+  <!-- 
+*    A tag <colgroup> funciona pegando as seguintes linhas:
+    <tr>
+        <th rowspan="2"></th>
+        <th colspan="2">Mayucchi</th>
+        <th colspan="2">Kri</th>
+    </tr>
+*    E com essa tag, mudamos a cor e o span de cada coluna para facilitar o entedimento;
+-->
+  <colgroup>
+    <col />
+    <col span="2" style="background-color: red" />
+    <col span="2" style="background-color: blue" />
+  </colgroup>
+
   <thead>
     <tr>
       <!-- 
-*    Aqui está sendo expandido a coluna e a linha;
+*    Aqui tanto a linha como coluna estão sendo expandidos em 2 para ajustar a tabela;
 -->
       <th rowspan="2"></th>
       <th colspan="2">Mayucchi</th>
       <th colspan="2">Kri</th>
     </tr>
-
+    <!-- 
+    "Menu";
+-->
     <tr>
       <th>Produzidos</th>
       <th>Vendidos</th>
@@ -25,7 +42,9 @@
       <th>Vendidos</th>
     </tr>
   </thead>
-
+  <!-- 
+    Nome do produto, vendidos e produzidos;
+-->
   <tbody>
     <tr>
       <th>Vassouras</th>
