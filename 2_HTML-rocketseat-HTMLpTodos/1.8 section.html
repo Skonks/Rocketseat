@@ -2,10 +2,33 @@
     <section></section>
 
     -Onde e por que utilizar?
+        -Serve para colocar sessões na página, geralmente você coloca um título e depois o conteúdo;
+        -Antigamente faria mais sentido usar div, mas pela semântica, usamos o section;
+        -Se for por exemplo, uma receita, é melhor usar o article e não o section;
+        -Não usar com atributos como header etc;
     -Possuí apenas atributos globais;
  -->
+
+<!--! Aqui seria melhor usar o <header> direto ao em vez do <section> com um id do header -->
+<section id="header">
+    <nav></nav>
+</section>
+<!-- ! -->
 
 <section>
     <h2>Contato</h2>
     <p>Fale conosco</p>
 </section>
+
+<!--! Aqui seria melhor usar o <article> ao em vez de <section> -->
+<section>
+    <h2>Receita 1</h2>
+    <p>Como fazer a receita</p>
+</section>
+
+<section>
+    <h2>Receita 2</h2>
+    <p>Como fazer a receita</p>
+</section>
+
+<!-- ! -->
