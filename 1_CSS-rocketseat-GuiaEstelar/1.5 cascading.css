@@ -25,9 +25,9 @@
 
 ?    Pode-se fazer a junção de especificidades para aumentar a força da mesma (h1.tittle#mytittle{} = 111 de força)
 *    Pode-se colocar mais de uma regra no CSS usando ","
-        exemplo: 
-        #my-title,
-        my-tittle strong{    (Pega o id selector + a tag <strong>)
+?        exemplo: 
+*        #my-title,
+*        my-tittle strong{    (Pega o id selector + a tag <strong>)
 
         }
 ====================================================================================================
