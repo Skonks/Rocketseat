@@ -16,13 +16,19 @@
 
     Especificidade:
     É um cálculo matemático, onde cada tipo de seletor e origem de estilo, possuem valores a serem considerados.
-    Forças da especificidade:
+?    Forças da especificidade:
         *0 -Universal selector (*), combinators e negation pseudo-class (:not())
         *1 -Element type selector(h1) e pseudo elements (::before, ::after)
         *10 -Classes (h1 class="title" & no CSS .title{}) e attributes selectors ((type="radio"))
         *100 -Id selector (h1 id="my-title" & no CSS #my-title{})
         *1000 -Inline (h1 style="")
+
+?    Pode-se fazer a junção de especificidades para aumentar a força da mesma (h1.tittle#mytittle{} = 111 de força)
+    Pode-se colocar mais de uma regra no CSS usando ","
 ====================================================================================================
 
     A regra !important
+        -Evite o uso;
+        -Não é considerado uma boa prática;
+        -Quebra o fluxo natural da cascata;
 */
