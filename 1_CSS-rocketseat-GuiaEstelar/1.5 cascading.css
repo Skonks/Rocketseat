@@ -16,11 +16,12 @@
 
     Especificidade:
     É um cálculo matemático, onde cada tipo de seletor e origem de estilo, possuem valores a serem considerados.
-        0 -Universal selector, combinators e negation pseudo-class (:not())
-        1 -Element type selector e pseudo elements (::before, ::after)
-        10 -Classes e attributes selectors ((type="radio"))
-        100 -Id selector
-        1000 -Inline
+    Forças da especificidade:
+        *0 -Universal selector (*), combinators e negation pseudo-class (:not())
+        *1 -Element type selector(h1) e pseudo elements (::before, ::after)
+        *10 -Classes (h1 class="title" & no CSS .title{}) e attributes selectors ((type="radio"))
+        *100 -Id selector (h1 id="my-title" & no CSS #my-title{})
+        *1000 -Inline (h1 style="")
 ====================================================================================================
 
     A regra !important
