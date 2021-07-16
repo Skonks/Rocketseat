@@ -1,0 +1,14 @@
+/*
+    Funções
+*        -Nome seguido de abre e fecha parentesis;
+*        -Recebe argumentos;
+
+    Exemplos:
+    CSS 
+        @import url("https://yukielinda.com/style.css"); < (url é a função)
+        
+            {
+                color: rgb(255, 0, 100); < Nome da função, abre e fecha parentesis (Dentro dos parentesis existem argumentos)
+                widht calc(100% - 10px); < Nome da função, abre e fecha parentesis (Dentro dos parentesis existem argumentos)
+            }
+*/
