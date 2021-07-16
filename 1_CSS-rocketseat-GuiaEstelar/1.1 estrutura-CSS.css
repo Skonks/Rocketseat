@@ -1,8 +1,9 @@
-/*O que significa CSS
-    *Cascading Style Sheet;
+/*
+    O que significa CSS
+    Cascading Style Sheet;
     *Código para criar estilos em HTML;
     *HTML é a estrutura e CSS é a beleza;
-    *Não é uma linguagem de programação, é uma linguagem de style sheet;
+    !Não é uma linguagem de programação, é uma linguagem de style sheet;
 
     =====================================================================
 
@@ -12,10 +13,10 @@ Anatomia do CSS
     *Proprieties;
     *Property values;
 
-h1{   Selector (h1)
-      Proprieties (color, font-size, background)
+*h1{   Selector (h1)
+      *Proprieties (color, font-size, background)
                                         color:blue;
-Declaration (tudo depois do h1)         font-size: 60px;    Property values (blue, 60px, gray)
+*Declaration (tudo depois do h1)         font-size: 60px;    Property values (blue, 60px, gray)
                                         background: gray;
 }
 */
