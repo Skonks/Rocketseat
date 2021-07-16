@@ -2,6 +2,39 @@
     Adicionando CSS
 
         -Inline
-            *atributo "style"
+            *atributo style="" direto no HTML (Não recomendado)
+=============================================================================================
+        -<style>
+            *tag HTML que irá conter o CSS (Usada no <head> do HTML)
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <style>
+            h1 {
+                color:green;
+            }
+
+            strong {
+                color:yellow;
+            }
+        </style>
+</head>
+===========================================================================================        
+        -<link>
+            *arquivo CSS externo;
+                <link rel="stylesheet" href="style.css">
+
+        -Import
+            *arquivo CSS interno;
 
 */
+
+h1{
+    color: green;
+}
+
+strong{
+    color: yellow;
+}
