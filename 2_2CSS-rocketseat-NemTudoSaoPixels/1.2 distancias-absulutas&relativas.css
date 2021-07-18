@@ -1,3 +1,15 @@
 /*
+    Distâncias absolutas <lenght> 
 
+        -São fixas e não alteram o seu valor;
+
+        Unidade             Nome                Equivalência
+        cm             centímetros              1cm = 96px/2.54
+        in             inches (polegadas)       lin = 2.54cm = 96px
+        px             pixels                   1px = 1/96th of lin
+
+        -O mais comum e mais utilizado é o pixel (px)
+        -Não é recomendado usar centímetros (cm)
+
+    Distâncias relativas 
 */
