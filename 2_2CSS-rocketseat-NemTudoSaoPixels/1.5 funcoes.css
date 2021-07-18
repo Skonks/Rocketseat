@@ -1,10 +1,13 @@
 /*
     Funções
-        -Em programação(Podemos usar em CSS também), funções são reconhecidas por causar reaproveitamento de código.
+        -Em programação(Podemos usar em CSS também), funções são reconhecidas por causar reaproveitamento de código.  < (Códigos feitos por alguém)
 *        -Valores dentro da função são chamados de argumentos;
         Exemplos:
             -rgb()
             -hsl()
             -url()
             -calc()
+
+
+    Body não tem uma altura por padrão, ele se expande dependendo do elemento que tem dentro;
 */
