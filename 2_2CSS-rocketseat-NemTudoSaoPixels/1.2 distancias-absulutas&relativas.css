@@ -15,13 +15,22 @@
 
     Distâncias relativas 
         -São relativas a algum outro valor, pode ser o elemento pai, root ou o tamanho da tela;
-        
 *        -Benefício: Maior adaptação aos diferentes tipos de tela;
 
         Unidade             Relativo a
-        em                  Tamanho da font do pai
-        rem                 Tamanho da font do elemento raiz (root/html)
+        em                  Tamanho da font do pai  (Pode-se usar em cima de uma distância absoluta, por exemplo: pixel.)
+            "div{
+                font-size: 16px;
+            }
+            p{                              1em vai multiplicar os 16px (Eu acho)
+                font-size: 1em;
+            }"
+?==========================================================================================================
+        rem                 Tamanho da font do elemento raiz (root/html) > (Vai usar o elemento default do HTML e não vai considerar nenhum outro)
+*            -Podemos alterar o elemento root usando ":root" ou usando "html {font-size (tamanho da fonte)}"
+?==========================================================================================================
         vw                  1% da viewport width
+?==========================================================================================================
         vh                  1% da viewport height
 
 */
