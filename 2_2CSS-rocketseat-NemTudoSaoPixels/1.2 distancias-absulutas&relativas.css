@@ -29,8 +29,8 @@
         rem                 Tamanho da font do elemento raiz (root/html) > (Vai usar o elemento default do HTML e não vai considerar nenhum outro)
 *            -Podemos alterar o elemento root usando ":root" ou usando "html {font-size (tamanho da fonte)}"
 ?==========================================================================================================
-        vw                  1% da viewport width
+        vw                  1% da viewport width (1% dos 100% da largura que temos na tela)
 ?==========================================================================================================
-        vh                  1% da viewport height
+        vh                  1% da viewport height (1% dos 100% da altura que temos na tela)
 
 */
