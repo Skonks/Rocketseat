@@ -8,6 +8,10 @@
             -url()
             -calc()
 
-
+?    Exemplo de código calc;
+            .box {
+                height: calc(100% - 40px); < Pegando 100% da altura do site - 40px
+                widht: 100%
+==========================================================================================================
     Body não tem uma altura por padrão, ele se expande dependendo do elemento que tem dentro;
 */
