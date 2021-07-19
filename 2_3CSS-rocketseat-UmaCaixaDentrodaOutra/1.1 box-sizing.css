@@ -12,6 +12,6 @@ div{
     height: 100px;
     border: 1px solid red;
     margin: 10px;
-    padding: 0 20px; /* Quando colocamos 20px de preenchimento interno nas laterais, a caixa soma os 20px em ambos lados e com isso temos 140px nas laterais */
-    box-sizing: border-box; /* Aplica o padding mas faz com que a caixa apenas 100px deixando de somar os 20px em ambos lados */
+    padding: 0 20px; /* !Quando colocamos 20px de preenchimento interno nas laterais, a caixa soma os 20px em ambos lados e com isso temos 140px nas laterais, aumentando os 100px do width (não queremos isso) */
+    box-sizing: border-box; /* ?Faz com que o 100px de width seja verdadeiro idependente dos 20px na largura do padding, mas ainda sim adiciona o padding (???) */ /* box-sizing: border-box; faz os calculos partindo da borda*/ 
 }
