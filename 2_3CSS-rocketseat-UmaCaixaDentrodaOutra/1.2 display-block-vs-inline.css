@@ -5,9 +5,11 @@
 *    -Ocupa toda a linha, colocando o próximo elemento abaixo desse;
 *    -width e height são respeitados;
 *    -padding, margin e border irão funcionar normalmente;
+    Exemplo do que se pode usar: block: <p><div><section>, todos os headings <h1><h2>...
 ======================================================================
     Inline:
 *    -Elemento ao lado do outro;
 *    -width e height não funcionam;
 *    -Somente valores horizontais de margin, padding e border;
+    Exemplo do que se pode usr: inline: <a><strong><span><em>
  */ 
