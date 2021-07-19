@@ -12,8 +12,16 @@
 *    -width e height não funcionam;
 *    -Somente valores horizontais de margin, padding e border;
 ?    Exemplo do que se pode usar: inline: <a>, <strong>, <span>, <em>
- */ 
+ */
 
-div{
-    font-size: 22px;
+*{
+    font-size: 60px;
+}
+
+div {
+    color: green;
+}
+
+strong{
+    color: yellow;
 }
