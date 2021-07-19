@@ -20,8 +20,16 @@
 
 div {
     color: green;
+    margin: 20px; /* Vai empurrar pra baixo e pros lados */
+    /* ?height: 100px; Vai empurrar tudo pra baixo porque ele respeita a largura/altura */
+    /* width: 10px; */
+    /* border: 1px solid green; */
+    /* ?display: inline; /* Vai mudar o comportamento de "block" para "inline" */
 }
-
-strong{
+span {
     color: yellow;
+    margin: 20px; /* Não vai empurar pra baixo, apenas pros lados */
+    /* ?height:100px; Não vai empurrar tudo pra baixo porque ele não respeita a largura/altura */
+    /* border: 1px solid yellow; */
+    /* ?display: block;  Vai mudar o comportamento de "inline" para "block" */
 }
