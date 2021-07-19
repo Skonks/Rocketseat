@@ -13,3 +13,7 @@
 *    -Somente valores horizontais de margin, padding e border;
 ?    Exemplo do que se pode usar: inline: <a>, <strong>, <span>, <em>
  */ 
+
+div{
+    font-size: 22px;
+}
