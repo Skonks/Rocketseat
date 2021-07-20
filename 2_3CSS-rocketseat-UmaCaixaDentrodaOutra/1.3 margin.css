@@ -1,15 +1,16 @@
 /* 
         Margin = Espaço sobre os elementos;
-*            -margin-top | margin-right | margin-bottom | margin-left
+        Só aplicado com elementos block;
+*            -margin-top | margin-right | margin-bottom | margin-left < A ordem é exatamente essa quando for usar o código
 *               -values: <lenght> | <percentage> | <auto>
 
         CSS:
             div{
                 ?shorthand
                 margin: 12px 16px 10px 4px;
-                margin: 12px 16px 0;
-                margin: 8px 16px;
-                margin: 8px;
+                margin: 12px 16px 0; < Quando temos 3 valores é top, left/right e por último, bottom;
+                margin: 8px 16px;   < Quando temos 2 valores é top/bottom e left/right;
+                margin: 8px; < Quando temos 1 valor é para todos os lados;
             }
 =========================================================================================
 !        -Cuidado com o margin collapsing (top se junta ao bottom)
