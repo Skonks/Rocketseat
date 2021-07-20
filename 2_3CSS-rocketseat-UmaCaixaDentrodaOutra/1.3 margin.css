@@ -2,7 +2,7 @@
         Margin = Espaço sobre os elementos;
         Só aplicado com elementos block;
 *            -margin-top | margin-right | margin-bottom | margin-left < A ordem é exatamente essa quando for usar o código
-*               -values: <lenght> | <percentage> | <auto>
+*               -values: <lenght> | <percentage> | <auto>  < (Vai calcular apenas nas laterais)
 
         CSS:
             div{
@@ -19,12 +19,21 @@
   margin: 0;
 }
 
-div {
-  margin: 40px 0px 0px 40px;
-
-  font-size: 30px;
+div,
+section {
+  font-size: 20px;
+  font-weight: bold;
 
   border: 1px solid green;
   height: 100px;
   width: 100px;
+}
+
+/* ! Mostrando o margin collapsing (Não acontece nada porque o navegador (?) não deixa fazer a soma de 8px + 8px se você usar algo com display: block; porém, com o display: inline; a soma será feita */
+div {
+  margin-bottom: 8px;
+}
+
+section {
+  margin-top: 8px;
 }
