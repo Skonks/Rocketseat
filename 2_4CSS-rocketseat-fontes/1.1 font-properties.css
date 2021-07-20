@@ -20,8 +20,8 @@
     p {
         font-family: "Times New Roman", Times, serif; < (Se não tiver a Times New Roman, o fallback é ativado)
     }
-            -serif;
-            -sans;
+            -serif; < (Fontes que tem dobras)
+            -sans; < (Fontes que não tem dobras)
 ==========================================================================================================
 ?   Font Weight
         -Peso da fonte;
@@ -31,3 +31,7 @@
         font-weight: bold;
     }
  */
+
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
