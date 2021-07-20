@@ -18,8 +18,10 @@
 
     CSS
     p {
-        font-family: "Times New Roman" Times, serif;
+        font-family: "Times New Roman", Times, serif; < (Se não tiver a Times New Roman, o fallback é ativado)
     }
+            -serif;
+            -sans;
 ==========================================================================================================
 ?   Font Weight
         -Peso da fonte;
