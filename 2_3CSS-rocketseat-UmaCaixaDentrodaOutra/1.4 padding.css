@@ -19,8 +19,8 @@
   margin: 0;
 }
 
-div {
-}
+div, section {
+    border: 1px solid green;
 
-section {
+    padding: 20px;
 }
