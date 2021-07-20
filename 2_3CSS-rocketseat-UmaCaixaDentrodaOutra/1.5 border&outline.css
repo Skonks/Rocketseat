@@ -44,4 +44,10 @@ section {
 
 /* 
         Outline
+*        Diferente da border em 4 sentidos;
+                -Não modifica o tamanho da caixa, pois não é parte do box model;
+                -Poderá ser diferente de retangular;
+                -Não permite ajustes individuais;
+                -Mais usado pelo user agent para acessibilidade;
+
  */
