@@ -1,3 +1,13 @@
 /* 
-    
+    Padding
+        -padding-top | padding-right | padding-bottom | padding-left |
+        -value <lenght> | <percentage> | auto
+
+============================================================================
+    CSS
+?        shorthand
+    padding: 12px 12px 12px 12px;
+    padding: 12px 16px 0px;
+    padding: 8px 16px;
+    padding: 8px;
 */
