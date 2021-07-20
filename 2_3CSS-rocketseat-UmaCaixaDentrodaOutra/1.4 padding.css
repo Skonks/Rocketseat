@@ -5,9 +5,11 @@
 
 ============================================================================
     CSS
-?        shorthand
+?        shorthand (Mesmo esquema d margin)
     padding: 12px 12px 12px 12px;
     padding: 12px 16px 0px;
     padding: 8px 16px;
     padding: 8px;
+============================================================================
+!    Padding poderá causar diferença na largura de um elemento;
 */
