@@ -1,3 +1,25 @@
 /* 
-    
+    Border (E outline)
+    -As bordas da caixa;
+        -Values: <border-style> | <border-width> | <border-color>
+        -Styles: solid | dotted | dashed | double | groove | ridge | insert | outset
+        -Width: <lenght>
+        -Color: <color>
+=========================================================================================
+    CSS:
+    div{
+?        shorthand
+        border-top: solid 2px; | top | right | bottom | left;
+    ?        style
+            border: solid;
+
+    ?        widht <lenght> | style
+            border: 2px dotted;
+
+    ?        style | color
+            border: outset #f33;
+
+    ?        widht | style | color
+            border: medium dashed green;
+    }
 */
