@@ -15,10 +15,16 @@
 =========================================================================================
 !        -Cuidado com o margin collapsing (top se junta ao bottom)
    */
+* {
+  margin: 0;
+}
+
 div {
-    font-size: 30px;
-    border: 1px solid green;
-    margin: 40px 0px 0px 40px;
-    height: 100px;
-    width: 100px;
+  margin: 40px 0px 0px 40px;
+
+  font-size: 30px;
+
+  border: 1px solid green;
+  height: 100px;
+  width: 100px;
 }
