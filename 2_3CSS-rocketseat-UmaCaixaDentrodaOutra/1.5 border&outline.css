@@ -41,7 +41,7 @@ section {
   box-sizing: border-box;
   border-bottom: none;
 
-  outline: yellow 4px solid;  /* Não altera o tamanho da border */
+  outline: yellow 4px solid; /* Não altera o tamanho da border */
 }
 /* 
         Outline
