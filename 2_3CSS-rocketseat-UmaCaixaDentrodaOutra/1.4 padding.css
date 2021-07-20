@@ -14,3 +14,13 @@
 ============================================================================
 !    Padding poderá causar diferença na largura de um elemento;
 */
+
+* {
+  margin: 0;
+}
+
+div {
+}
+
+section {
+}
