@@ -81,7 +81,7 @@
     CSS
     p{
               -style | -variant | -weight | -stretch | -size | -line-height | -family
-*        font: italic    normal     bold      normal    3em/       1.5        Helvetica, arial, sans-serif;
+*        font: italic    normal     bold      normal    3em/       1.5        Helvetica, arial, sans-serif; < (size e line-height precisam ser separados pela /)
     }
  */
 
