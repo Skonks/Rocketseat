@@ -4,7 +4,7 @@
 
     CSS
     p{
-        font-variant: small-caps;
+*        font-variant: small-caps;
     }
 ===========================================================================================
     Font stretch
@@ -14,7 +14,7 @@
 
     CSS
     p{
-        font-stretch: expanded;  < (Nem todas as fontes vão aceitar)
+*        font-stretch: expanded;  < (Nem todas as fontes vão aceitar)
     }
 ===========================================================================================
     Letter spacing/Word spacing
@@ -23,9 +23,9 @@
     
     CSS
     p{
-        letter-spacing: 4px;
+*        letter-spacing: 4px;
     }
-===========================================================================================
+===============================================================================================
     Line height
         -Espaço entre linhas
         -Pode ser com unidades de medidas
@@ -33,20 +33,40 @@
     
     CSS
     p{
-        line-height: 1.6;
+*        line-height: 1.6;
     }
-==========================================================================================================
+================================================================================================
     Text transform
         -Transforma o texto (dur)
     
     CSS
     p{
-        text-transform: uppercase; (capitalize / lowecase / none)
+*        text-transform: uppercase; (capitalize / lowecase / none)
+    }
+================================================================================================
+    Text decoration
+        -Aparencia decorativa de um texto
+*        -line: underline | overline | line-through (Podemos aplicar mais que um valor)
+*        -style: wavy | dotted | double | dashed | solid
+*        -color: <color> values
+
+    CSS
+    p{
+?        shorthand
+*        text-decoration: underline wavy green;
+    }
+================================================================================================
+    Text align
+        -Alinhamento de texto (dur)
+
+    CSS
+    p{
+        text-align: center; | left | right | center | justify
     }
  */
 
 p {
-  font-variant: small-caps;
-  line-height: 2.6;
-  text-transform: uppercase;
+  font-variant: normal;
+  text-decoration: underline double red;
+  text-align: center;
 }
