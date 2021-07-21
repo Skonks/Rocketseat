@@ -17,16 +17,36 @@
         font-stretch: expanded;  < (Nem todas as fontes vão aceitar)
     }
 ===========================================================================================
-    Letter spacing
+    Letter spacing/Word spacing
         -Espaço entre caracteres
+        -Espaço entre palavras
     
     CSS
     p{
         letter-spacing: 4px;
     }
+===========================================================================================
+    Line height
+        -Espaço entre linhas
+        -Pode ser com unidades de medidas
+        -Comuns 1.5 ou 2
+    
+    CSS
+    p{
+        line-height: 1.6;
+    }
+==========================================================================================================
+    Text transform
+        -Transforma o texto (dur)
+    
+    CSS
+    p{
+        text-transform: uppercase; (capitalize / lowecase / none)
+    }
  */
 
 p {
   font-variant: small-caps;
-  letter-spacing: 4px;
+  line-height: 2.6;
+  text-transform: uppercase;
 }
