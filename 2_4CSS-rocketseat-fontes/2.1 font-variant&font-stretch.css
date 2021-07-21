@@ -63,10 +63,22 @@
     p{
         text-align: center; | left | right | center | justify
     }
+================================================================================================
+    Text shadow
+        -Sombra aplicada a um texto
+        -Permite múltiplos valores
+
+    CSS
+    p{
+        text-shadow: 1px 1px 1px red,
+                        2px 2px 1px green; | offset-x | offset-y | blue-radius | color
+
+    }
  */
 
 p {
   font-variant: normal;
   text-decoration: underline double red;
   text-align: center;
+  text-shadow: 2px 2px 1px green;
 }
