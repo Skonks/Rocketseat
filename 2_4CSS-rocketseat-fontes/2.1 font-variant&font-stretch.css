@@ -61,7 +61,7 @@
 
     CSS
     p{
-        text-align: center; | left | right | center | justify
+*        text-align: center; | left | right | center | justify
     }
 ================================================================================================
     Text shadow
@@ -70,15 +70,21 @@
 
     CSS
     p{
-        text-shadow: 1px 1px 1px red,
+*        text-shadow: 1px 1px 1px red,
                         2px 2px 1px green; | offset-x | offset-y | blue-radius | color
 
+    }
+================================================================================================
+    Shorthand
+*        -font-style, font-variant, font-weight, font-stretch, font-size, line-height, e font-family
+
+    CSS
+    p{
+              -style | -variant | -weight | -stretch | -size | -line-height | -family
+*        font: italic    normal     bold      normal    3em/       1.5        Helvetica, arial, sans-serif;
     }
  */
 
 p {
-  font-variant: normal;
-  text-decoration: underline double red;
-  text-align: center;
-  text-shadow: 2px 2px 1px green;
+  font: italic normal bold normal 3em/1.5 Helvetica, arial, sans-serif;
 }
