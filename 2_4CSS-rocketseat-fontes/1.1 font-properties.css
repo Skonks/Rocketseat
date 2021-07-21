@@ -28,7 +28,7 @@
 
     CSS
     p{
-        font-weight: bold;
+        font-weight: bold; (Existem fontes que não passam de bold/normal)
     }
 ==========================================================================================================   
 ? Font Style
@@ -36,8 +36,23 @@
     
     CSS
     p{
-        font-style: italic;  < (Existem fontes que não passam de bold/normal;
+        font-style: italic;  
     }
+==========================================================================================================
+? Font Size
+        -O tamanho da fonte
+
+    CSS
+    p{
+        font-size: 18px; (Existem fontes que não permitem italic/oblique)
+    }
+==========================================================================================================  
+?    Web fonts
+    -Fontes do sistema x fontes da web;
+    -Como usar fontes para web?
+        -@font-face
+        -@import
+        -link
  */
 
 p {
