@@ -1,5 +1,5 @@
 /*
-    Font variant
+?    Font variant
         -Variações na apresentação da font
 
     CSS
@@ -7,7 +7,7 @@
 *        font-variant: small-caps;
     }
 ===========================================================================================
-    Font stretch
+?    Font stretch
         -Alargamento ou encolhimento da fonte
         -Aceita palavras-chaves como: expanded, condensed & normal
         -Aceita porcentagem de 50% a 200%
@@ -17,7 +17,7 @@
 *        font-stretch: expanded;  < (Nem todas as fontes vão aceitar)
     }
 ===========================================================================================
-    Letter spacing/Word spacing
+?    Letter spacing/Word spacing
         -Espaço entre caracteres
         -Espaço entre palavras
     
@@ -26,7 +26,7 @@
 *        letter-spacing: 4px;
     }
 ===============================================================================================
-    Line height
+?    Line height
         -Espaço entre linhas
         -Pode ser com unidades de medidas
         -Comuns 1.5 ou 2
@@ -36,7 +36,7 @@
 *        line-height: 1.6;
     }
 ================================================================================================
-    Text transform
+?    Text transform
         -Transforma o texto (dur)
     
     CSS
@@ -44,7 +44,7 @@
 *        text-transform: uppercase; (capitalize / lowecase / none)
     }
 ================================================================================================
-    Text decoration
+?    Text decoration
         -Aparencia decorativa de um texto
 *        -line: underline | overline | line-through (Podemos aplicar mais que um valor)
 *        -style: wavy | dotted | double | dashed | solid
@@ -56,7 +56,7 @@
 *        text-decoration: underline wavy green;
     }
 ================================================================================================
-    Text align
+?    Text align
         -Alinhamento de texto (dur)
 
     CSS
@@ -64,7 +64,7 @@
 *        text-align: center; | left | right | center | justify
     }
 ================================================================================================
-    Text shadow
+?    Text shadow
         -Sombra aplicada a um texto
         -Permite múltiplos valores
 
@@ -75,7 +75,7 @@
 
     }
 ================================================================================================
-    Shorthand
+?    Shorthand
 *        -font-style, font-variant, font-weight, font-stretch, font-size, line-height, e font-family
 
     CSS

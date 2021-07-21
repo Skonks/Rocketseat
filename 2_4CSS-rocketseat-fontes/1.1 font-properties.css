@@ -18,7 +18,7 @@
 
     CSS
     p {
-        font-family: "Times New Roman", Times, serif; < (Se não tiver a Times New Roman, o fallback é ativado)
+*        font-family: "Times New Roman", Times, serif; < (Se não tiver a Times New Roman, o fallback é ativado)
     }
             -serif; < (Fontes que tem dobras)
             -sans; < (Fontes que não tem dobras)
@@ -28,7 +28,7 @@
 
     CSS
     p{
-        font-weight: bold; (Existem fontes que não passam de bold/normal)
+*        font-weight: bold; (Existem fontes que não passam de bold/normal)
     }
 ==========================================================================================================   
 ? Font Style
@@ -36,7 +36,7 @@
     
     CSS
     p{
-        font-style: italic;  
+*        font-style: italic;  
     }
 ==========================================================================================================
 ? Font Size
@@ -44,7 +44,7 @@
 
     CSS
     p{
-        font-size: 18px; (Existem fontes que não permitem italic/oblique)
+*        font-size: 18px; (Existem fontes que não permitem italic/oblique)
     }
 ==========================================================================================================  
 ?    Web fonts
