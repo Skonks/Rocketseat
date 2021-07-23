@@ -6,10 +6,17 @@
 }
 
 /* !HEADER */
+header {
+  background: #2d4a22;
+  padding: 2rem;
+}
 
+header h1 {
+}
 /* !MAIN */
-body{
-  background: #f0f2f5
+body {
+  background: #f0f2f5;
+  font-family: "Poppins", sans-serif;
 }
 
 /* !FOOTER */
