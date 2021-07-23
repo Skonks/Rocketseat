@@ -1,3 +1,4 @@
+/* !GLOBAL */
 /* ?Resetando as configurações do user agent */
 * {
   margin: 0;
@@ -5,6 +6,10 @@
   box-sizing: border-box; /* A partir da borda */
 }
 
+body {
+  background: #f0f2f5;
+  font-family: "Poppins", sans-serif;
+}
 /* !HEADER */
 header {
   background: #2d4a22;
@@ -20,14 +25,18 @@ header h1#logo {
 }
 /* !MAIN */
 .container {
-  width: 300px;
+  width: min(90vw, 800px);
 
   margin: auto;
 }
 
-body {
-  background: #f0f2f5;
-  font-family: "Poppins", sans-serif;
+/* ?BALANCE */
+#balance{
+  margin-top: -8rem;
+}
+
+#balance h2{
+  color: #fff;
 }
 
 /* !FOOTER */
