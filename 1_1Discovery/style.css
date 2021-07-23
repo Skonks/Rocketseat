@@ -103,6 +103,7 @@ header h1#logo {
   border-spacing: 0 0.5;
 }
 
+/* *Aqui estou mexendo na table "descrição" */
 table th {
   font-weight: normal;
 
@@ -115,7 +116,8 @@ table th {
   background: white;
 }
 
-#table td {
+/* *Aqui estou mexendo no conteúdo da table */
+table td {
   background: white;
 }
 
