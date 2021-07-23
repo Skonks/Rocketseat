@@ -121,6 +121,12 @@ table td {
   background: white;
 }
 
+/* *Aqui estou buscando o "primeiro filho" do th/td que está no tr que está localizado no tbody/thead */
+table thead tr th:first-child,
+table tbody tr td:first-child {
+
+}
+
 /* !FOOTER */
 /* *Deixando o conteúdo do rodapé no centro */
 .footer {
