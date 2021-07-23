@@ -19,11 +19,18 @@ header h1#logo {
   font-weight: 100;
 }
 /* !MAIN */
+.container {
+  width: 300px;
+
+  margin: auto;
+}
+
 body {
   background: #f0f2f5;
   font-family: "Poppins", sans-serif;
 }
 
-
-
 /* !FOOTER */
+.footer {
+  text-align: center;
+}
