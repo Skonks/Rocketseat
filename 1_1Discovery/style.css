@@ -96,8 +96,15 @@ header h1#logo {
 }
 
 /* ?TABLE */
-#transactions {
-  
+/* *Estou fazendo a data-table pegar 100% do container que ela está dentro (Usar no outro site para melhorar ele) */
+#data-table {
+  width: 100%;
+
+  border-spacing: 0 0.5;
+}
+
+#table td{
+
 }
 
 /* !FOOTER */
