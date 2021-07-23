@@ -139,15 +139,18 @@ table tbody td {
   padding: 1rem 2rem;
 }
 
+/* *Trocando a cor da descrição */
 td.description {
   color: var(--dark-blue);
 }
 
-td.income{
+/* *Trocando a cor do income */
+td.income {
   color: #12a454;
 }
 
-td.expense{
+/* *Trocando a cor das expenses */
+td.expense {
   color: #e92929;
 }
 
