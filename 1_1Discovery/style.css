@@ -122,10 +122,12 @@ table thead th {
   background: white;
 }
 
+/* *Aqui estou deixando a opacidade menor quando o mouse não está em cima do conteúdo da tabela */
 table tbody tr {
   opacity: 0.5;
 }
 
+/* *Aqui estou deixando a opacidade maior quando o mouse estiver em cima do conteúdo da tabela */
 table tbody tr:hover {
   opacity: 1;
 }
@@ -135,6 +137,18 @@ table tbody td {
   background: white;
 
   padding: 1rem 2rem;
+}
+
+td.description {
+  color: var(--dark-blue);
+}
+
+td.income{
+  color: #12a454;
+}
+
+td.expense{
+  color: #e92929;
 }
 
 /* !FOOTER */
