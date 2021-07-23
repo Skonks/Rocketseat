@@ -10,6 +10,14 @@ body {
   background: #f0f2f5;
   font-family: "Poppins", sans-serif;
 }
+
+h2{
+  margin-top: 3.2rem;
+  margin-bottom: 0.8rem;
+  
+  color: #363f5f;
+  font-weight: normal;
+}
 /* !HEADER */
 header {
   background: #2d4a22;
@@ -23,6 +31,7 @@ header h1#logo {
   color: #fff;
   font-weight: 100;
 }
+
 /* !MAIN */
 .container {
   width: min(90vw, 800px);
@@ -37,6 +46,7 @@ header h1#logo {
 
 #balance h2{
   color: #fff;
+  margin-top: 0;
 }
 
 /* !FOOTER */
