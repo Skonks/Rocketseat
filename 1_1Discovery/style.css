@@ -6,14 +6,14 @@
   box-sizing: border-box; /* A partir da borda */
 }
 
-/* *Colocando a fonte como poppins e o background como branco*/
+/* *Colocando a fonte como poppins e o background como branco */
 body {
   background: #f0f2f5;
 
   font-family: "Poppins", sans-serif;
 }
 
-/* *Mexendo em todos os h2 da página, quando usarmos outro h2, ele vai puxar os mesmos padrões daqui*/
+/* *Mexendo em todos os h2 da página, quando usarmos outro h2, ele vai puxar os mesmos padrões daqui */
 h2 {
   margin-top: 3.2rem;
   margin-bottom: 0.8rem;
@@ -32,14 +32,14 @@ header {
   text-align: center;
 }
 
-/* *Mudando a cor da logo e sua fonte*/
+/* *Mudando a cor da logo e sua fonte weight */
 header h1#logo {
   color: #fff;
   font-weight: 100;
 }
 
 /* !MAIN */
-/* *Mudando as proporções minimas da "box" de cor verde*/
+/* *Mudando as proporções minimas da "box" de cor verde */
 .container {
   width: min(90vw, 800px);
 
@@ -47,20 +47,31 @@ header h1#logo {
 }
 
 /* ?BALANCE */
-/* *Arrumando a margen da sessão balance*/
+/* *Arrumando a margen da sessão balance */
 #balance {
   margin-top: -8rem;
 }
 
-/* *Mudando o h2 da sessão balance para que ele seja branco e sem margem*/
+/* *Mudando o h2 da sessão balance para que ele seja branco e sem margem */
 #balance h2 {
   color: #fff;
 
   margin-top: 0;
 }
 
+/* ?CARDS */
+/* *Aqui estou colocando um padding e margin-bottom para que as coisas desgrudem uma das outras, fazendo a borda ficar mais redonda */
+.card {
+  background: white;
+
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+
+  border-radius: 0.25rem;
+}
+
 /* !FOOTER */
-/* *Deixando o conteúdo do rodapé no centro*/
+/* *Deixando o conteúdo do rodapé no centro */
 .footer {
   text-align: center;
 }
