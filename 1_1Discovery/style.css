@@ -85,6 +85,12 @@ header h1#logo {
   font-size: 2rem;
 
   line-height: 3rem;
+
+  margin-top: 1rem;
+}
+
+.card.green{
+  
 }
 /* !FOOTER */
 /* *Deixando o conteúdo do rodapé no centro */
