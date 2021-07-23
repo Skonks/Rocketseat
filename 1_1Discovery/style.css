@@ -155,4 +155,9 @@ td.expense{
 /* *Deixando o conteúdo do rodapé no centro */
 .footer {
   text-align: center;
+
+  padding: 4rem 0 2rem;
+
+  color: var(--dark-blue);
+  opacity: 0.6;
 }
