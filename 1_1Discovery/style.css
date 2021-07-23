@@ -105,8 +105,14 @@ header h1#logo {
   color: #969cb3;
 }
 
+/* *Aqui estou buscando o "primeiro filho" do th/td que está no tr que está localizado no tbody/thead (Descrição/Valor/Data) */
+table thead tr th:first-child,
+table tbody tr td:first-child {
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
 /* *Aqui estou mexendo na table "descrição" */
-table th {
+table thead th {
   font-weight: normal;
 
   padding: 1rem 2rem;
@@ -116,25 +122,19 @@ table th {
   background: white;
 }
 
-/* *Aqui estou mexendo no conteúdo da table */
-table td {
-  background: white;
-
-  padding: 1rem 2rem;
-}
-
-table tr {
+table tbody tr {
   opacity: 0.5;
 }
 
-table tr:hover {
+table tbody tr:hover {
   opacity: 1;
 }
 
-/* *Aqui estou buscando o "primeiro filho" do th/td que está no tr que está localizado no tbody/thead (Descrição/Valor/Data) */
-table thead tr th:first-child,
-table tbody tr td:first-child {
-  border-radius: 0.25rem 0 0 0.25rem;
+/* *Aqui estou mexendo no conteúdo da table */
+table tbody td {
+  background: white;
+
+  padding: 1rem 2rem;
 }
 
 /* !FOOTER */
