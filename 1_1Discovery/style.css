@@ -6,19 +6,23 @@
   box-sizing: border-box; /* A partir da borda */
 }
 
+/* *Colocando a fonte como poppins e o background como branco*/
 body {
   background: #f0f2f5;
   font-family: "Poppins", sans-serif;
 }
 
+/* *Mexendo em todos os h2 da página*/
 h2{
   margin-top: 3.2rem;
   margin-bottom: 0.8rem;
-  
+
   color: #363f5f;
   font-weight: normal;
 }
+
 /* !HEADER */
+/* *Colocando uma "box" com a cor verde e deixando a logo no centro */
 header {
   background: #2d4a22;
 
@@ -27,11 +31,13 @@ header {
   text-align: center;
 }
 
+/* *Mudando a cor da logo e sua fonte*/
 header h1#logo {
   color: #fff;
   font-weight: 100;
 }
 
+/* *Mudando as proporções minimas da "box" de cor verde*/
 /* !MAIN */
 .container {
   width: min(90vw, 800px);
@@ -39,17 +45,20 @@ header h1#logo {
   margin: auto;
 }
 
+/* *Arrumando a margen da sessão balance*/
 /* ?BALANCE */
 #balance{
   margin-top: -8rem;
 }
 
+/* *Mudando o h2 da sessão balance para que ele seja branco e sem margem*/
 #balance h2{
   color: #fff;
   margin-top: 0;
 }
 
 /* !FOOTER */
+/* *Deixando o conteúdo do rodapé no centro*/
 .footer {
   text-align: center;
 }
