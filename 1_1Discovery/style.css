@@ -89,9 +89,17 @@ header h1#logo {
   margin-top: 1rem;
 }
 
-.card.green{
+/* *Aqui estou mudando o background do total e a cor da fonte */
+.card.total {
+  background: #49aa26;
+  color: white;
+}
+
+/* ?TABLE */
+#transactions {
   
 }
+
 /* !FOOTER */
 /* *Deixando o conteúdo do rodapé no centro */
 .footer {
