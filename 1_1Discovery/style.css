@@ -103,8 +103,20 @@ header h1#logo {
   border-spacing: 0 0.5;
 }
 
-#table td{
+table th {
+  font-weight: normal;
 
+  padding: 1rem 2rem;
+
+  text-align: left;
+
+  color: #969cb3;
+
+  background: white;
+}
+
+#table td {
+  background: white;
 }
 
 /* !FOOTER */
