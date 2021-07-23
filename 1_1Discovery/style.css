@@ -13,7 +13,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* *Mexendo em todos os h2 da página*/
+/* *Mexendo em todos os h2 da página, quando usarmos outro h2, ele vai puxar os mesmos padrões daqui*/
 h2 {
   margin-top: 3.2rem;
   margin-bottom: 0.8rem;
@@ -38,16 +38,16 @@ header h1#logo {
   font-weight: 100;
 }
 
-/* *Mudando as proporções minimas da "box" de cor verde*/
 /* !MAIN */
+/* *Mudando as proporções minimas da "box" de cor verde*/
 .container {
   width: min(90vw, 800px);
 
   margin: auto;
 }
 
-/* *Arrumando a margen da sessão balance*/
 /* ?BALANCE */
+/* *Arrumando a margen da sessão balance*/
 #balance {
   margin-top: -8rem;
 }
