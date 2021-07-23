@@ -74,11 +74,13 @@ header h1#logo {
   border-radius: 0.25rem;
 }
 
+/* *Aqui estou mudando o peso da fonte e o seu tamanho para que ela fique menor que o <p> */
 .card h3 {
   font-weight: normal;
   font-size: 1rem;
 }
 
+/* *Aqui estou mudando o tamanho da fonte do <p> e aumentando o espaçamento de linha */
 .card p {
   font-size: 2rem;
 
