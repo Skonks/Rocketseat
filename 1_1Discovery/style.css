@@ -132,7 +132,7 @@ table tbody tr:hover {
   opacity: 1;
 }
 
-/* *Aqui estou mexendo no conteúdo da table */
+/* *Aqui estou mexendo no conteúdo da table, colocando o background da table como branco e aumentando o preenchimento interno */
 table tbody td {
   background: white;
 
@@ -155,7 +155,7 @@ td.expense {
 }
 
 /* !FOOTER */
-/* *Deixando o conteúdo do rodapé no centro */
+/* *Deixando o conteúdo do rodapé no centro, mudando a cor e o preenchimento interno */
 .footer {
   text-align: center;
 
