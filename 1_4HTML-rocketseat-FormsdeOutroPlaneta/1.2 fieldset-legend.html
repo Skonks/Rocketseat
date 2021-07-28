@@ -5,16 +5,24 @@
         -semântico
         -acessibilidade
 
-    Atributos especiais
-    -disabled
+*    Atributos especiais
+    ?-disabled
         -Desabilita todos os elementos internos
         -Não serão enviados ao submeter o formulário
-    -form
+    ?-form
         -O id de um formulário ao qual o fieldset pertence
         -Não precisa estar dentro do formulário
-    -name
+    ?-name
         -nome do grupo
-    <legend> 
+    ?<legend> 
         -Nome do agrupamento
         -Primeiro elemento dentro do fieldset
 -->
+
+<form action="">
+    <fieldset>
+        <legend>Contato</legend>
+        <label for="">Nome</label>
+        <input type="text">
+    </fieldset>
+</form>
