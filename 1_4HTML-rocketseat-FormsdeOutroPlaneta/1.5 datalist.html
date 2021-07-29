@@ -1,16 +1,39 @@
 <!-- 
     <datalist>
-        -Lista de valores como sugestão a uma tag <input>
+        -Vai fornecer para o usuário uma lista de valores como sugestão a uma tag <input>
         -Valores sugestivos e não obrigatórios
         -Usuário poderá selecionar um dos valores, ou colocar um valor diferente da sugestão
 
+*    <datalist id="fruitsdata">
+*        <option>apple</option>
+*        <option>banana</option>
+*        <option>mango</option>
+*        <option>orange</option>
+*    </datalist>
+
+====================================================================================================
+    List
+        -Recebe como valor um id de um <datalist> residente no mesmo documento.
+
+====================================================================================================
+?    Tipo de input suportados
+*        -text, search, url, tel, email, date, month, week, time, datatime-local, number, range e color.
+    Valores de datalist que não são compatíveis com o tipo do <input> não serão apresentados.
+
+============================================================================================================
+!    Tipos de input não suportados (Conforme especificado)
+        -hidden, password, checkbox, radio, file ou qualquer tipo de button
+
+============================================================================================================
+    User agent
+
+-->
+
+<form action="">
     <datalist id="fruitsdata">
         <option>apple</option>
         <option>banana</option>
         <option>mango</option>
         <option>orange</option>
     </datalist>
-====================================================================================================
-    List
-        -Recebe como valor um id de um <datalist> residente no mesmo documento.
--->
+</form>
