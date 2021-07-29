@@ -2,16 +2,21 @@
     <button>
         -Representa um botão
         -Usado para enviar formulários
-        -É estilizado pelo user agent
+        -É estilizado pelo user agent (Podemos usar CSS para mudar)
     
 *    Atributos comuns:
         -type
-            -submit
-            -reset
-            -button
-        -autofocus
-        -disabled
+            -submit (Enviar)
+            -reset (Voltar do zero)
+            -button (Faz a mesma coisa que o submit)
+        -autofocus (O foco já vai estar no botão)
+        -disabled (Usado mais pra frente com Javascript)
         -name
-        -value
-        -form
+        -value (Vai fazer você receber os dados do botão/form)
+        -form (Vai linkar a um formulário)
 -->
+
+<form action="">
+    <input type="text" value="oi">
+    <button type="submit">Enviar</button>
+</form>
