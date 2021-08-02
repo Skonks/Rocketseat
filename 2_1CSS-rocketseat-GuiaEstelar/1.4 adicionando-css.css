@@ -30,13 +30,13 @@
             *arquivo CSS interno; (De preferencia usar <link> ao em vez de @import, o motivo é que @import faz a pesquisa no site demorar mais para responder);
 
 */
-@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap");
 
-h1{
-    color: green;
-    font-family: 'Zen Loop', cursive;
+h1 {
+  color: green;
+  font-family: "Zen Loop", cursive;
 }
 
-strong{
-    color: yellow;
+strong {
+  color: yellow;
 }
