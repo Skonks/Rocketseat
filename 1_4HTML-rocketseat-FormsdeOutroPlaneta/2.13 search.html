@@ -5,8 +5,8 @@
     
 ?    Atributos:
         *-list/datalist (Vai dar sugestões sobre o que pesquisar)
-        -pattern
-        *-aria-label
+        *-pattern (Vai fazer uma busca por semelhança, e se a busca bater conseguiremos fazer a pesquisa/operação)
+        *-aria-label (Vai fazer a mesma coisa que o label nos mecanismos de pesquisa, a única diferença é que ele não aparece na tela)
 -->
 
 <datalist id="searchterms">
@@ -16,6 +16,7 @@
 </datalist>
 
 <form action="">
-    <input type="search" name="procurar" list="searchterms" placeholder="Digite seu termo de busca" size="30">
+    <input type="search" name="procurar" list="searchterms" placeholder="Digite seu termo de busca" size="30"
+        aria-label="Campo de pesquisa">
     <button>Search</button>
 </form>
