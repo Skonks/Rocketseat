@@ -4,7 +4,18 @@
         -É igual ao campo tipo "text" mas poderá ser um pouco diferente por causa do user agent
     
 ?    Atributos:
-        -list/datalist
+        *-list/datalist (Vai dar sugestões sobre o que pesquisar)
         -pattern
-        -aria-label
+        *-aria-label
 -->
+
+<datalist id="searchterms">
+    <option>Mac</option>
+    <option>Win</option>
+    <option>Linux</option>
+</datalist>
+
+<form action="">
+    <input type="search" name="procurar" list="searchterms" placeholder="Digite seu termo de busca" size="30">
+    <button>Search</button>
+</form>
