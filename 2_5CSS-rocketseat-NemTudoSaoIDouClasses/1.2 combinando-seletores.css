@@ -1,0 +1,17 @@
+/*
+    ?Combinators
+        -Combinadores, pois eles trabalham para buscar e combinar seletores a fim de aplicar uma estilização
+    
+    ?Descendant Combinator
+        *-Identificado por um espaço entre seletores
+        *-Busca um elemento dentro do outro
+
+        *CSS:
+            body article h2{
+            }
+
+    ?Child Combinators
+        *-Identificado pelo sinal ">" entre dois seletores
+        *-Seleciona apenas o elemento que é filho direto do pai
+        *-Elemento depois do filho direto serão desconsiderados
+*/

@@ -1,8 +1,8 @@
 /*
-    Seletores
+    ?Seletores
         -Conecta um elemento HTML com o CSS a fim de alterar o elemento
 
-    Tipos:
+    ?Tipos:
         *-Element selector
             -Todos os elementos do HTML
         *-ID selector << Usa #
@@ -17,11 +17,11 @@
         *-Pseudo class selector
             -Elementos em um estado específico
 
-    Múltiplos
+    ?Múltiplos
         -Você poderá selecionar múltiplos elementos e aplicar alguma regra CSS para todos eles.
         -Usamos uma separação por virgula
 
-    Podemos usar ID junto com CLASS (Acho que não é recomendado porque pode ficar confuso)
+    ?Podemos usar ID junto com CLASS (Acho que não é recomendado porque pode ficar confuso)
 */
 
 /* ELEMENT SELECTOR */
