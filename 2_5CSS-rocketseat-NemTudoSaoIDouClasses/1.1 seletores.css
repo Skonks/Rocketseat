@@ -13,6 +13,7 @@
             -Podemos ter uma ou mais classes
         *-Attribute selector
             -Um elemento que tenha um atributo específico
+           ? https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
         *-Pseudo class selector
             -Elementos em um estado específico
 
@@ -37,9 +38,12 @@ h1 {
 .teste {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: aqua;
+  color: blueviolet;
 }
 
 /* ATTRIBUTE SELECTOR */
+[title] {
+  color: brown;
+}
 
 /* PSEUDO CLASS SELECTOR */
