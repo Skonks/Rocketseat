@@ -31,6 +31,14 @@
 
         *CSS
             h1 ~ p
+
+    ?Utilizando combinadores
+        *CSS
+            ul > li [class="red"]
+
+    ?Dica
+        -Seletores muito específicos tendem a causar dificuldades ao reuso das regras de estilização dos elementos
+        -Muitas vezes, um simples uso de classe torna o trabalho muito mais eficiente
 */
 
 /* Descendant Combinator (Regra sendo aplicada para todos os H2 que estiverem dentro de um ARTICLE dentro do BODY */
