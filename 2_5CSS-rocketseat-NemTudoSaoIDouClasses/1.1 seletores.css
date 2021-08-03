@@ -46,7 +46,8 @@ h1 {
   color: brown;
 }
 
-/* PSEUDO CLASS SELECTOR */
-#subtitle:hover {
+/* PSEUDO CLASS SELECTOR & MULTIPLE */
+#subtitle:hover,
+.teste:hover {
   color: yellowgreen;
 }
