@@ -15,3 +15,8 @@
         *-Seleciona apenas o elemento que é filho direto do pai
         *-Elemento depois do filho direto serão desconsiderados
 */
+
+/* Descendant Combinator (Regra sendo aplicada para todos os H2 que estiverem dentro de um ARTICLE dentro do BODY */
+body article h2 {
+  color: rebeccapurple;
+}
