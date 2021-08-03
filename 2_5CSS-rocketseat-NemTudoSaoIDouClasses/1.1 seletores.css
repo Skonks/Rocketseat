@@ -47,3 +47,6 @@ h1 {
 }
 
 /* PSEUDO CLASS SELECTOR */
+#subtitle:hover {
+  color: yellowgreen;
+}
