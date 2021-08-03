@@ -22,24 +22,39 @@
 
     !Atenção: O formulário deverá conter regras de acessibilidade, como o label para campo, por exemplo
 -->
+<!DOCTYPE html>
+<html lang="en">
 
-<fieldset form="informacoes">
-    <legend>Informações</legend>
-    <form id="nome">
-        <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome" placeholder="Coloque seu nome" minlength="5" maxlength="50"
-            title="Coloque seu nome completo">
-    </form>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 
-    <form id="email">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="Coloque seu email"
-            title="Coloque seu email corretamente">
-    </form>
+<body>
 
-    <form id="feedback">
-        <label for="feedback">Feedback</label>
-        <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
-    </form>
-    <button>Enviar</button>
-    </form>
+    <fieldset form="informacoes">
+        <legend>Informações</legend>
+        <form id="nome">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Coloque seu nome" minlength="5" maxlength="50"
+                title="Coloque seu nome completo">
+        </form>
+
+        <form id="email">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Coloque seu email"
+                title="Coloque seu email corretamente">
+        </form>
+
+        <form id="feedback">
+            <label for="feedback">Feedback</label>
+            <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+        </form>
+        <button>Enviar</button>
+        </form>
+
+</body>
+
+</html>
