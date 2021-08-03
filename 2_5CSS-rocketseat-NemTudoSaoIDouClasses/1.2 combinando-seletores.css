@@ -26,6 +26,11 @@
             h1 + p
 
     ?General sibiling combinator
+        *-Identificado pelo sinal "~" entre dois seletores
+        *-Seleciona todos os elementos irmãos
+
+        *CSS
+            h1 ~ p
 */
 
 /* Descendant Combinator (Regra sendo aplicada para todos os H2 que estiverem dentro de um ARTICLE dentro do BODY */
@@ -38,4 +43,14 @@ body > ul > li {
   color: green;
 }
 
-/* Adjacent sibiling combinator */
+/* Adjacent sibiling combinator (Só vai pegar a parte direita após o "+" ou seja, vai pegar apenas o P que é irmão direto do H1 [nesse caso, o primeiro P]) */
+h1 + p {
+  color: red;
+}
+
+/* Vai colocar o margin no botão do lado DIREITO do "+" [ou seja, o último botão] */
+button + button {
+  margin-left: 32px;
+}
+
+/* General sibiling combinator */
