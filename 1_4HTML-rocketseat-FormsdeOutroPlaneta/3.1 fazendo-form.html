@@ -25,23 +25,21 @@
 
 <fieldset form="informacoes">
     <legend>Informações</legend>
-    <form action="">
+    <form id="nome">
         <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome">
+        <input type="text" name="nome" id="nome" placeholder="Coloque seu nome" minlength="5" maxlength="50"
+            title="Coloque seu nome completo">
     </form>
 
-    <form action="">
+    <form id="email">
         <label for="email">Email</label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" placeholder="Coloque seu email"
+            title="Coloque seu email corretamente">
     </form>
 
-    <form action="">
+    <form id="feedback">
         <label for="feedback">Feedback</label>
         <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
     </form>
-    </form>
-
-
-    <form id="informacoes">
-        <button>Enviar</button>
+    <button>Enviar</button>
     </form>
