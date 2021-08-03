@@ -20,3 +20,20 @@
         -Você poderá selecionar múltiplos elementos e aplicar alguma regra CSS para todos eles.
         -Usamos uma separação por virgula
 */
+
+/* ELEMENT SELECTOR */
+h1 {
+  color: green;
+}
+
+p {
+  color: yellow;
+}
+
+/* ID SELECTOR */
+    
+/* CLASS SELECTOR */
+
+/* ATTRIBUTE SELECTOR */
+
+/* PSEUDO CLASS SELECTOR */
