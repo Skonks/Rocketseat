@@ -14,6 +14,15 @@
         *-Identificado pelo sinal ">" entre dois seletores
         *-Seleciona apenas o elemento que é filho direto do pai
         *-Elemento depois do filho direto serão desconsiderados
+
+        *CSS
+            body > ul > li
+
+    ?Adjacent sibiling combinator
+        *-Identificado pelo sinal "+" entre dois seletores
+        *-Seleciona somente o elemento do lado direito que é irmão direto na hierarquia
+
+        *CSS
 */
 
 /* Descendant Combinator (Regra sendo aplicada para todos os H2 que estiverem dentro de um ARTICLE dentro do BODY */
