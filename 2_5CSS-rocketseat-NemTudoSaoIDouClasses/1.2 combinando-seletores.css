@@ -53,4 +53,7 @@ button + button {
   margin-left: 32px;
 }
 
-/* General sibiling combinator */
+/* General sibiling combinator (Vai pegar todos os irmãos nesse caso, os P's e vai mudar todos, ignorando o lado esquerdo do "~" [h3] */
+h3 ~ p {
+  color: yellow;
+}
