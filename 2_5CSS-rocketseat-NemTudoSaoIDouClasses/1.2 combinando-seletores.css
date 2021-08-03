@@ -24,6 +24,8 @@
 
         *CSS
             h1 + p
+
+    ?General sibiling combinator
 */
 
 /* Descendant Combinator (Regra sendo aplicada para todos os H2 que estiverem dentro de um ARTICLE dentro do BODY */
@@ -35,3 +37,5 @@ body article h2 {
 body > ul > li {
   color: green;
 }
+
+/* Adjacent sibiling combinator */
