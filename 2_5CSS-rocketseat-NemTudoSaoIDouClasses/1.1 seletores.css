@@ -5,11 +5,11 @@
     Tipos:
         *-Element selector
             -Todos os elementos do HTML
-        *-ID selector
+        *-ID selector << Usa #
             -Um elemento que tenha o atributo "id"
             -Cada id deverá ser único
-        *-Class Selector
-            -Os elementos que contenha um atributo "class"
+        *-Class Selector << Usa .
+            -Os elementos que contenham um atributo "class"
             -Podemos ter uma ou mais classes
         *-Attribute selector
             -Um elemento que tenha um atributo específico
@@ -19,6 +19,8 @@
     Múltiplos
         -Você poderá selecionar múltiplos elementos e aplicar alguma regra CSS para todos eles.
         -Usamos uma separação por virgula
+
+    Podemos usar ID junto com CLASS (Acho que não é recomendado porque pode ficar confuso)
 */
 
 /* ELEMENT SELECTOR */
@@ -26,13 +28,17 @@ h1 {
   color: green;
 }
 
-p {
-  color: yellow;
+/* ID SELECTOR */
+#subtitle {
+  color: red;
 }
 
-/* ID SELECTOR */
-    
 /* CLASS SELECTOR */
+.teste {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: aqua;
+}
 
 /* ATTRIBUTE SELECTOR */
 
