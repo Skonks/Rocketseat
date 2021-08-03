@@ -23,9 +23,15 @@
         *-Seleciona somente o elemento do lado direito que é irmão direto na hierarquia
 
         *CSS
+            h1 + p
 */
 
 /* Descendant Combinator (Regra sendo aplicada para todos os H2 que estiverem dentro de um ARTICLE dentro do BODY */
 body article h2 {
   color: rebeccapurple;
+}
+
+/* Child Combinators (Vai pegar só o primeiro LI dentro do UL que está em baixo do BODY, se colocarmos qualquer coisa em cima desse UL e LI, não vai funcionar, o resto do código é desconsiderado) */
+body > ul > li {
+  color: green;
 }
