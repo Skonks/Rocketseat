@@ -16,7 +16,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* *Deixando o BALANCE/TRANSACTION apenas para leitores de tela */
+/* *Deixando o BALANCE/TRANSACTION apenas para leitores de tela (Usando CSS tricks [tentar entender depois] */
 .sr-only {
   position: absolute;
 
@@ -24,6 +24,14 @@ body {
   height: 1px;
   padding: 0px;
   margin: -1px;
+
+  overflow: hidden;
+
+  clip: rect(0, 0, 0, 0);
+
+  white-space: nowrap;
+
+  border-width: 0;
 }
 
 /* *Mexendo em todos os h2 da página, quando usarmos outro h2, ele vai puxar os mesmos padrões daqui */
