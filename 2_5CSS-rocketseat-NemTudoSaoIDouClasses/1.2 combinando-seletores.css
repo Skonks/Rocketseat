@@ -65,3 +65,8 @@ button + button {
 h3 ~ p {
   color: yellow;
 }
+
+/* Utilizando combinadores (Todos juntos) */
+span > strong [class="cor"] {
+  color: burlywood;
+}
