@@ -60,4 +60,7 @@ input:focus {
 }
 
 /* *Atributos */
-/* disabled */
+/* disabled/required */
+input:required {
+  background-color: bisque;
+}
