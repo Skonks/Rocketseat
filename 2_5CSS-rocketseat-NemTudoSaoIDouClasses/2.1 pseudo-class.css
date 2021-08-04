@@ -14,3 +14,10 @@
 
     Ações do usuário
 */
+
+/* first-child (Ele PRECISA ser o primeiro item para que o first-child funcione) */
+ul li:first-child {
+  font-weight: bold;
+}
+
+/* nth-of-type */
