@@ -30,3 +30,10 @@ article p:nth-of-type(2) {
 article p:nth-child(2) {
   color: cornflowerblue;
 }
+
+/* 
+nth-child even & odd (par e ímpar) (Vai mudar a cor de 2 em 2)
+    ?article p:nth-child(even/odd) {
+    ?color: cornflowerblue;
+    ?}
+*/
