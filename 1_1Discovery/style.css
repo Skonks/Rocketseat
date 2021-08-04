@@ -17,9 +17,13 @@ body {
 }
 
 /* *Deixando o BALANCE/TRANSACTION apenas para leitores de tela */
-.sr-only{
+.sr-only {
   position: absolute;
 
+  width: 1px;
+  height: 1px;
+  padding: 0px;
+  margin: -1px;
 }
 
 /* *Mexendo em todos os h2 da página, quando usarmos outro h2, ele vai puxar os mesmos padrões daqui */
