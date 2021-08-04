@@ -16,8 +16,12 @@
 */
 
 /* first-child (Ele PRECISA ser o primeiro item para que o first-child funcione) */
-ul li:first-child {
+article h3:first-child {
   font-weight: bold;
+  color: brown;
 }
 
-/* nth-of-type */
+/* nth-of-type (Escolhemos qual paragráfo mudar entre parentheses) */
+article p:nth-of-type(1) {
+  color: blue;
+}
