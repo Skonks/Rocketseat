@@ -16,6 +16,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* *Deixando o BALANCE/TRANSACTION apenas para leitores de tela */
+.sr-only{
+  position: absolute;
+
+}
+
 /* *Mexendo em todos os h2 da página, quando usarmos outro h2, ele vai puxar os mesmos padrões daqui */
 h2 {
   margin-top: 3.2rem;
@@ -33,12 +39,6 @@ header {
   padding: 2rem 0 10rem;
 
   text-align: center;
-}
-
-/* *Mudando a cor da logo e sua fonte weight */
-header h1#logo {
-  color: #fff;
-  font-weight: 100;
 }
 
 /* !MAIN */
