@@ -66,7 +66,7 @@ h3 ~ p {
   color: yellow;
 }
 
-/* Utilizando combinadores (Todos juntos) */
-span > strong [class="cor"] {
+/* Utilizando combinadores (Todos juntos/Simples uso da classe ajuda bastante e é mais fácil) */
+.cor {
   color: burlywood;
 }
