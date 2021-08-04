@@ -23,6 +23,7 @@
     https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
 */
 
+/* *Selecionando elementos com pseudo-classes */
 /* first-child (Ele PRECISA ser o primeiro item para que o first-child funcione) */
 article h3:first-child {
   font-weight: bold;
@@ -45,3 +46,15 @@ nth-child even & odd (even vai mudar apenas os pares e even vai mudar apenas os 
     ?color: cornflowerblue;
     ?}
 */
+
+/* *Ações do usuário */
+/* hover (Muda algo quando o mouse estiver em cima)*/
+a:hover {
+  color: red;
+}
+
+/* focus (Muda algo quando estiver em foco [Pra ver direito tem que tirar o outline])*/
+input:focus {
+  border-color: red;
+  outline: none;
+}
