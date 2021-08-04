@@ -10,3 +10,18 @@
 
     https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
  */
+
+/* ::before (Antes do conteúdo sempre precisamos ter um "content" antes para conseguirmos fazer mudanças) */
+li::before {
+  content: ">";
+}
+
+/* ::after (Depois do conteúdo, sempre precisamos ter um "content" antes para conseguirmos fazer mudanças) */
+li::after {
+  content: "<";
+}
+
+/* first-line (Apenas a primeira linha) & (Podemos juntar psdeudo elements com pseudo classes) */
+p:nth-of-type(2)::first-line {
+  font-weight: bold;
+}
