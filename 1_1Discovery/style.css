@@ -16,7 +16,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* *Deixando o BALANCE/TRANSACTION apenas para leitores de tela (Usando CSS tricks [tentar entender depois] */
+/* *Deixando o BALANCE/TRANSACTION apenas para leitores de tela (Usando CSS tricks [tentar entender depois]) */
 .sr-only {
   position: absolute;
 
