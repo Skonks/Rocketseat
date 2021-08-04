@@ -12,7 +12,15 @@
         *-:nth-of-type()
         *-:nth-child()
 
-    Ações do usuário
+    ?Ações do usuário
+        *-hover
+        *-focus
+
+    ?Atributos
+        *-disabled
+        *-required
+
+    https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
 */
 
 /* first-child (Ele PRECISA ser o primeiro item para que o first-child funcione) */
