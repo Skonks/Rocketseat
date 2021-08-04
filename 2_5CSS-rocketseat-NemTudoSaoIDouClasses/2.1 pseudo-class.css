@@ -32,7 +32,7 @@ article p:nth-child(2) {
 }
 
 /* 
-nth-child even & odd (par e ímpar) (Vai mudar a cor de 2 em 2)
+nth-child even & odd (even vai mudar apenas os pares e even vai mudar apenas os ímpares)
     ?article p:nth-child(even/odd) {
     ?color: cornflowerblue;
     ?}
