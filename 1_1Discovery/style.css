@@ -9,6 +9,25 @@
   box-sizing: border-box; /* A partir da borda */
 }
 
+/* ?Arrumando a responsividade */
+/* *Fonte para mobile */
+html {
+  font-size: 93, 75%;
+}
+
+/* *Usando @ rules */
+@media (min-width: 800px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  /* *display block = um em baixo do outro | display flex = um do lado do outro | grid é ambos (Estudar grid) */
+  #balance {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 /* *Colocando a fonte como poppins e o background como branco */
 body {
   background: #f0f2f5;
