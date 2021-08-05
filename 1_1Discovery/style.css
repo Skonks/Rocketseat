@@ -1,4 +1,4 @@
-/* !GLOBAL */
+/* !GLOBAL ========================================================================================================= */
 :root {
   --dark-blue: #363f5f;
 }
@@ -9,7 +9,7 @@
   box-sizing: border-box; /* A partir da borda */
 }
 
-/* !Arrumando a responsividade */
+/* !Arrumando a responsividade ======================================================================================= */
 /* *Fonte para mobile */
 html {
   font-size: 93, 75%;
@@ -64,7 +64,7 @@ h2 {
   font-weight: normal;
 }
 
-/* !HEADER */
+/* !HEADER ========================================================================================================= */
 /* *Colocando uma "box" com a cor verde e deixando a logo no centro */
 header {
   background: #2d4a22;
@@ -74,7 +74,7 @@ header {
   text-align: center;
 }
 
-/* !MAIN */
+/* !MAIN ========================================================================================================= */
 /* *Mudando as proporções minimas da "box" de cor verde */
 .container {
   width: min(90vw, 800px);
@@ -82,7 +82,7 @@ header {
   margin: auto;
 }
 
-/* ?BALANCE */
+/* ?BALANCE ========================================================================================================= */
 /* *Arrumando a margen da sessão balance */
 #balance {
   margin-top: -8rem;
@@ -95,7 +95,7 @@ header {
   margin-top: 0;
 }
 
-/* ?TRANSACTIONS */
+/* ?TRANSACTIONS ========================================================================================================= */
 /* *Agora estou arrumando a responsibilidade para o mobile para não deixar nada vazar, sempre que vazar usar display block e "overflow" */
 #transactions {
   display: block;
@@ -103,7 +103,7 @@ header {
   overflow-x: auto;
 }
 
-/* ?CARDS */
+/* ?CARDS ========================================================================================================= */
 /* *Aqui estou colocando um padding e margin-bottom para que as coisas desgrudem uma das outras, fazendo a borda ficar mais redonda */
 .card {
   background: white;
@@ -140,7 +140,7 @@ header {
   color: white;
 }
 
-/* ?LINKS & BUTTONS */
+/* ?LINKS & BUTTONS ==================================================================================================== */
 /* *Aqui estou aplicando cor no link/botão e tirando a underline */
 a {
   color: #3da116;
@@ -158,7 +158,7 @@ a:hover {
   display: inline-block;
 }
 
-/* ?TABLE */
+/* ?TABLE ========================================================================================================= */
 /* *Estou fazendo a data-table (A table inteira) pegar 100% do container que ela está dentro (Usar no outro site para melhorar ele) */
 #data-table {
   width: 100%;
@@ -223,7 +223,9 @@ td.expense {
   color: #e92929;
 }
 
-/* !FOOTER */
+/* !MODAL ========================================================================================================= */
+
+/* !FOOTER =========================================================================================================*/
 /* *Deixando o conteúdo do rodapé no centro, mudando a cor e o preenchimento interno */
 .footer {
   text-align: center;
