@@ -111,6 +111,12 @@ header {
   color: white;
 }
 
+/* ?LINKS & BUTTONS */
+a {
+  color: #3dd705;
+  text-decoration: none;
+}
+
 /* ?TABLE */
 /* *Estou fazendo a data-table (A table inteira) pegar 100% do container que ela está dentro (Usar no outro site para melhorar ele) */
 #data-table {
