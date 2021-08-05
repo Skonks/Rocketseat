@@ -239,7 +239,7 @@ td.expense {
   justify-content: center;
 }
 
-/* *Colocando uma box branca dentro da máscara */
+/* *Colocando uma box branca dentro da máscara (Não é preciso colocar o código que está ali em cima porque o padding já vai automaticamente arrumar a caixa */
 .modal {
   background: #f0f2f5;
 
