@@ -95,6 +95,14 @@ header {
   margin-top: 0;
 }
 
+/* ?TRANSACTIONS */
+/* *Agora estou arrumando a responsibilidade para o mobile para não deixar nada vazar, sempre que vazar usar display block e "overflow" */
+#transactions {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
 /* ?CARDS */
 /* *Aqui estou colocando um padding e margin-bottom para que as coisas desgrudem uma das outras, fazendo a borda ficar mais redonda */
 .card {
@@ -148,13 +156,6 @@ a:hover {
 .button.new {
   margin-bottom: 0.8rem;
   display: inline-block;
-}
-
-/* *Agora estou arrumando a responsibilidade para o mobile para não deixar nada vazar, sempre que vazar usar display block e "overflow" */
-#transactions {
-  display: block;
-  width: 100%;
-  overflow-x: auto;
 }
 
 /* ?TABLE */
