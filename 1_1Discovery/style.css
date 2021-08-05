@@ -21,10 +21,12 @@ html {
     font-size: 87.5%;
   }
 
-  /* *display block = um em baixo do outro | display flex = um do lado do outro | grid é ambos (Estudar grid) */
+  /* ?display block = um em baixo do outro | display flex = um do lado do outro | grid é ambos (Estudar grid) */
+  /* *Colcocando o display em grid, depois colocando ele um do lado do outro (Com uma função) e depois colocando um espaço entre eles */
   #balance {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
   }
 }
 
