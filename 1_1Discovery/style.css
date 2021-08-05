@@ -151,12 +151,10 @@ a:hover {
 }
 
 /* ?TABLE */
-/* *Estou fazendo a data-table (A table inteira) pegar 100% do container que ela está dentro (Usar no outro site para melhorar ele) | Agora estou arrumando a responsibilidade para não deixar nada vazar, sempre que vazar usar display block e "overflow" */
+/* *Estou fazendo a data-table (A table inteira) pegar 100% do container que ela está dentro (Usar no outro site para melhorar ele) | Agora estou arrumando a responsibilidade para o mobile para não deixar nada vazar, sempre que vazar usar display block e "overflow" */
 #data-table {
   display: block;
-  overflow: hidden;
-
-  width: 100%;
+  overflow-x: auto;
 
   border-spacing: 0 0.5;
 
