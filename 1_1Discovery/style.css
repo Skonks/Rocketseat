@@ -112,18 +112,21 @@ header {
 }
 
 /* ?LINKS & BUTTONS */
-/* * */
+/* *Aqui estou aplicando cor no link/botão e tirando a underline */
 a {
   color: #3da116;
   text-decoration: none;
 }
 
-/* * */
+/* *Aqui estou trocando a cor do hover no link/botão */
 a:hover {
   color: #3dd705;
 }
 
+/* *Aqui estou dando uma margin e aplicando um display para elementos inline */
 .button.new {
+  margin-bottom: 0.8rem;
+  display: inline-block;
 }
 
 /* ?TABLE */
