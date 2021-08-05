@@ -224,7 +224,7 @@ td.expense {
 }
 
 /* !MODAL ========================================================================================================= */
-/* *Colocando uma "máscara" na página | colocndo a caixa branca (modal) no meio da tela */
+/* *Colocando uma "máscara" na página | colocando a caixa branca (modal) no meio da tela | Arrumando para mexer com JS */
 .modal-overlay {
   width: 100%;
   height: 100%;
@@ -239,6 +239,12 @@ td.expense {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* *Arrumando para mexer com JS */
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
 }
 
 /* *Colocando uma box branca dentro da máscara (Não é preciso colocar o código que está ali em cima porque o padding já vai automaticamente arrumar a caixa */
