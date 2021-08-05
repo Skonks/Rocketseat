@@ -9,7 +9,7 @@
   box-sizing: border-box; /* A partir da borda */
 }
 
-/* ?Arrumando a responsividade */
+/* !Arrumando a responsividade */
 /* *Fonte para mobile */
 html {
   font-size: 93, 75%;
@@ -153,6 +153,8 @@ a:hover {
 /* ?TABLE */
 /* *Estou fazendo a data-table (A table inteira) pegar 100% do container que ela está dentro (Usar no outro site para melhorar ele) */
 #data-table {
+  display: block;
+
   width: 100%;
 
   border-spacing: 0 0.5;
