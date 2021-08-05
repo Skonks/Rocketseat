@@ -112,9 +112,18 @@ header {
 }
 
 /* ?LINKS & BUTTONS */
+/* * */
 a {
-  color: #3dd705;
+  color: #3da116;
   text-decoration: none;
+}
+
+/* * */
+a:hover {
+  color: #3dd705;
+}
+
+.button.new {
 }
 
 /* ?TABLE */
