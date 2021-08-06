@@ -282,6 +282,13 @@ td.expense {
   opacity: 0.5;
 }
 
+.input-group actions{
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* !FOOTER =========================================================================================================*/
 /* *Deixando o conteúdo do rodapé no centro, mudando a cor e o preenchimento interno */
 .footer {
