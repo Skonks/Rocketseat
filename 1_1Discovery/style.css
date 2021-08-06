@@ -262,21 +262,25 @@ td.expense {
   max-width: 500px;
 }
 
-#form h2{
+#form h2 {
   margin-top: 0;
 }
 
-#form form input{
+#form form input {
   border: none;
   border-radius: 0.2rem;
 
   padding: 0.8rem;
 }
 
-.input-group{
+.input-group {
   margin-top: 0.8rem;
+  width: 100%;
 }
 
+.input-group small {
+  opacity: 0.5;
+}
 
 /* !FOOTER =========================================================================================================*/
 /* *Deixando o conteúdo do rodapé no centro, mudando a cor e o preenchimento interno */
