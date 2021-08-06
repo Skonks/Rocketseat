@@ -282,11 +282,16 @@ td.expense {
   opacity: 0.5;
 }
 
-.input-group actions{
+.input-group actions {
   display: flex;
 
   justify-content: space-between;
   align-items: center;
+}
+
+.input-group.actions .button-cancel,
+.input-group.actions button {
+  width: 48%;
 }
 
 /* !FOOTER =========================================================================================================*/
