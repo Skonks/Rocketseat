@@ -267,8 +267,16 @@ td.expense {
 }
 
 #form form input{
-  
+  border: none;
+  border-radius: 0.2rem;
+
+  padding: 0.8rem;
 }
+
+.input-group{
+  margin-top: 0.8rem;
+}
+
 
 /* !FOOTER =========================================================================================================*/
 /* *Deixando o conteúdo do rodapé no centro, mudando a cor e o preenchimento interno */
