@@ -258,14 +258,17 @@ td.expense {
 }
 
 /* ?FORM =========================================================================================================*/
+/* *Mexendo no form inteiro */
 #form {
   max-width: 500px;
 }
 
+/* *Mexendo no h2 do form */
 #form h2 {
   margin-top: 0;
 }
 
+/* *Mexendo apenas no input do form dentro de form */
 #form form input {
   border: none;
   border-radius: 0.2rem;
@@ -273,15 +276,18 @@ td.expense {
   padding: 0.8rem;
 }
 
+/* *Mexendo no input group inteiro */
 .input-group {
   margin-top: 0.8rem;
   width: 100%;
 }
 
+/* *Mexendo na opacidade do texto dentro do small */
 .input-group small {
   opacity: 0.5;
 }
 
+/* *Mexendo nos conteúdo dentro de actions */
 .input-group actions {
   display: flex;
 
@@ -289,6 +295,7 @@ td.expense {
   align-items: center;
 }
 
+/* *Arrumar depois pq n ta funcionando */
 .input-group.actions .button-cancel,
 .input-group.actions button {
   width: 48%;
