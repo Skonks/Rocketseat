@@ -57,7 +57,8 @@
             <!-- *Transactions -->
             <h2 class="sr-only">Transações</h2> <!-- * Screen Reader only -->
 
-            <a href="#" class="button new">+ Nova transação</a> <!-- * O # é um truque para não sairmos da página -->
+            <a href="#" class="button new" onclick="Modal.open()">+ Nova transação</a>
+            <!-- * O # é um truque para não sairmos da página -->
 
             <table id="data-table">
                 <caption></caption>
@@ -136,9 +137,11 @@
     </footer>
 
     <script>
-        Modal = {
+        const Modal = {
             open() {
                 //Para abrir o modal precisamos colocar a classe active para o modal
+                //<a href="#" class="button new" onclick="Modal.open()">+ Nova transação</a>
+                alert('Abri o modal')
             },
             close() {
                 //Para fechar o modal precisamos tirar a classe active do modal
