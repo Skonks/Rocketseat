@@ -276,27 +276,34 @@ td.expense {
   padding: 0.8rem;
 }
 
+input {
+  border: none;
+  border-radius: 0.2rem;
+
+  padding: 0.8rem;
+
+  width: 100%;
+}
+
 /* *Mexendo no input group inteiro */
 .input-group {
   margin-top: 0.8rem;
-  width: 100%;
 }
 
 /* *Mexendo na opacidade do texto dentro do small */
 .input-group small {
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 /* *Mexendo nos conteúdo dentro de actions */
-.input-group actions {
+.input-group.actions {
   display: flex;
-
   justify-content: space-between;
   align-items: center;
 }
 
 /* *Arrumar depois pq n ta funcionando */
-.input-group.actions .button-cancel,
+.input-group.actions .button,
 .input-group.actions button {
   width: 48%;
 }
