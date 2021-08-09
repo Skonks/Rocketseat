@@ -161,6 +161,9 @@ button {
   color: white;
 
   background: #49aa26;
+
+  padding: 0;
+  border-radius: 0.25rem;
 }
 
 /* *Aqui estou dando uma margin e aplicando um display para elementos inline */
