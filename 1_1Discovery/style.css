@@ -164,6 +164,12 @@ button {
 
   padding: 0;
   border-radius: 0.25rem;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3dd705;
 }
 
 /* *Aqui estou dando uma margin e aplicando um display para elementos inline */
