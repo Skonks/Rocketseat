@@ -152,12 +152,25 @@ a:hover {
   color: #3dd705;
 }
 
+button {
+  width: 100%;
+  height: 50px;
+
+  border: none;
+
+  color: white;
+
+  background: #49aa26;
+}
+
 /* *Aqui estou dando uma margin e aplicando um display para elementos inline */
 .button.new {
   margin-bottom: 0.8rem;
   display: inline-block;
 }
 
+.button.cancel {
+}
 /* ?TABLE ========================================================================================================= */
 /* *Estou fazendo a data-table (A table inteira) pegar 100% do container que ela está dentro (Usar no outro site para melhorar ele) */
 #data-table {
