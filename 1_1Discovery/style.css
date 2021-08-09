@@ -183,6 +183,21 @@ button:hover {
 
 .button.cancel {
   color: var(--red);
+
+  border: 2px var(--red) solid;
+  border-radius: 0.25rem;
+
+  opacity: 0.6;
+
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button.cancel:hover {
+  opacity: 1;
 }
 /* ?TABLE ========================================================================================================= */
 /* *Estou fazendo a data-table (A table inteira) pegar 100% do container que ela está dentro (Usar no outro site para melhorar ele) */
