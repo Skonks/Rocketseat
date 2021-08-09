@@ -1,6 +1,9 @@
 /* !GLOBAL ========================================================================================================= */
 :root {
   --dark-blue: #363f5f;
+  --green: #49aa26;
+  --light-green: #3dd705;
+  --red: #e92929;
 }
 /* ?Resetando as configurações do user agent */
 * {
@@ -136,7 +139,7 @@ header {
 
 /* *Aqui estou mudando o background do total e a cor da fonte */
 .card.total {
-  background: #49aa26;
+  background: var(--green);
   color: white;
 }
 
@@ -149,7 +152,7 @@ a {
 
 /* *Aqui estou trocando a cor do hover no link/botão */
 a:hover {
-  color: #3dd705;
+  color: var(--light-green);
 }
 
 button {
@@ -160,7 +163,7 @@ button {
 
   color: white;
 
-  background: #49aa26;
+  background: var(--green);
 
   padding: 0;
   border-radius: 0.25rem;
@@ -169,7 +172,7 @@ button {
 }
 
 button:hover {
-  background: #3dd705;
+  background: var(--light-green);
 }
 
 /* *Aqui estou dando uma margin e aplicando um display para elementos inline */
@@ -179,6 +182,7 @@ button:hover {
 }
 
 .button.cancel {
+  color: var(--red);
 }
 /* ?TABLE ========================================================================================================= */
 /* *Estou fazendo a data-table (A table inteira) pegar 100% do container que ela está dentro (Usar no outro site para melhorar ele) */
@@ -242,7 +246,7 @@ td.income {
 
 /* *Trocando a cor das expenses */
 td.expense {
-  color: #e92929;
+  color: var(--red);
 }
 
 /* !MODAL ========================================================================================================= */
