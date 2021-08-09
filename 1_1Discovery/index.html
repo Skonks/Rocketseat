@@ -123,7 +123,7 @@
                         <input type="date" id="date" name="date" placeholder="01/01/2021">
                     </div>
                     <div class="input-group actions">
-                        <a href="#" class="button cancel">Cancelar</a>
+                        <a href="#" class="button cancel" onclick="Modal.close()">Cancelar</a>
                         <button>Salvar</button>
                     </div>
                 </form>
@@ -141,13 +141,17 @@
             open() {
                 //Para abrir o modal precisamos colocar a classe active para o modal
                 //<a href="#" class="button new" onclick="Modal.open()">+ Nova transação</a>
-                alert('Abri o modal')
+                document.querySelector('.modal-overlay') //Fazendo o HTML procurar dentro dele mesmo pelo seletor modal-overlay 
+                    .classList.add('active') //Quando achar o modal-overlay (objeto), estarei colocando uma classe chamada active
             },
             close() {
                 //Para fechar o modal precisamos tirar a classe active do modal
+                document.querySelector('.modal-overlay') // <a href="#" class="button cancel" onclick="Modal.close()">Cancelar</a>
+                    .classList.remove('active') //Quando achar o modal-overlay (objeto), estarei colocando uma classe chamada remove
             }
         }
     </script>
+
 </body>
 
 </html>
