@@ -155,6 +155,7 @@ a:hover {
   color: var(--light-green);
 }
 
+/* * */
 button {
   width: 100%;
   height: 50px;
@@ -171,6 +172,7 @@ button {
   cursor: pointer;
 }
 
+/* * */
 button:hover {
   background: var(--light-green);
 }
@@ -181,6 +183,7 @@ button:hover {
   display: inline-block;
 }
 
+/* * */
 .button.cancel {
   color: var(--red);
 
@@ -196,6 +199,7 @@ button:hover {
   justify-content: center;
 }
 
+/* * */
 .button.cancel:hover {
   opacity: 1;
 }
@@ -280,6 +284,8 @@ td.expense {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  z-index: 999; /* *Arrumando a posição para não dar conflito */
 }
 
 /* *Arrumando para mexer com JS */
@@ -296,6 +302,9 @@ td.expense {
 
   width: 90%;
   max-width: 500px;
+
+  position: relative;
+  z-index: 1; /* *Arrumando a posição para não dar conflito */
 }
 
 /* ?FORM =========================================================================================================*/
@@ -317,6 +326,7 @@ td.expense {
   padding: 0.8rem;
 }
 
+/* * */
 input {
   border: none;
   border-radius: 0.2rem;
@@ -343,7 +353,7 @@ input {
   align-items: center;
 }
 
-/* *Arrumar depois pq n ta funcionando */
+/* *Arrumando os botões */
 .input-group.actions .button,
 .input-group.actions button {
   width: 48%;
