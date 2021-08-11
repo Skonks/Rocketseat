@@ -8,3 +8,6 @@
         Infinity // infinito
 */
 
+console.log(34 + 14.5)
+console.log(14 / "abc")
+console.log(Infinity)
