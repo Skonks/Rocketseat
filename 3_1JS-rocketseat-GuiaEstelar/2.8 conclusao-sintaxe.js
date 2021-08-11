@@ -7,7 +7,7 @@
             *-Structural
             *-Structural primitive
 
-        ?Primitivos:
+        ?Primitivos: (Não vão sofrer alterações)
             *-String
             *-Number
             *-Boolean
@@ -16,12 +16,13 @@
             *-BigInt
 
         ?Estruturais:
+        *Object
             *-Array
             *-Map
             *-Set
             *-Date
             *-...
-        ?Function
+        *Function
 
         ?Primitivo estrutural / Structural root primitive
             *-null
