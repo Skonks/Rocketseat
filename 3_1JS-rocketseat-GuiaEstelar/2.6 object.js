@@ -8,9 +8,7 @@
 */
 
 console.log({
-    name: "Yukie",
-    idade: 18,
-    linda: function () {
+    name: "Yukie", idade: 18, linda: function () {
         console.log("Sim, é linda")
     }
 })
