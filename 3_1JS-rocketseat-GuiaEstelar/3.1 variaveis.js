@@ -8,6 +8,11 @@
         *-var
         *-let
         *-const
+=========================================================================================================================
+
+    O Js é uma linguagem fracamente tipada e dinâmica
+        *-Variáveis não precisam ter um tipo previamente definido
+        *-Podemos mudar o conteúdo da variável
 */
 
 var Yukie = "Linda"
