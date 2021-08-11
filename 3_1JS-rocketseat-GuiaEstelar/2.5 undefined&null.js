@@ -1,4 +1,7 @@
 /*
+    undefined
+        *indefinido
+
     null
         *nulo
         *Objeto que não possui nada dentro
@@ -6,3 +9,4 @@
 */
 
 console.log(null)
+console.log(undefined)
