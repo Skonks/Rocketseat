@@ -8,5 +8,5 @@
         *Diferente de undefined
 */
 
-console.log(null)
+console.log(null === undefined)
 console.log(undefined)
