@@ -6,3 +6,5 @@
         false // falso
 */
 
+console.log(true)
+console.log(false)
