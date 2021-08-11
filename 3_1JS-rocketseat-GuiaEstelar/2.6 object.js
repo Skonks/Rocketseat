@@ -1,8 +1,8 @@
 /*
     Object
-        *Objeto
-        *Propriedade / Atributos
-        *Funcionalidades / Métodos
+        *Objeto     < console.log({})
+        *Propriedade/Atributos      < name: "Yukie", idade: 18
+        *Funcionalidades/Métodos    < linda: function () {console.log("Sim, é linda")}
 
         {propriedade :"valor"}
 */
