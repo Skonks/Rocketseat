@@ -7,10 +7,10 @@
     ?3 palavras reservadas para criar uma variável
         *-var
         *-let
-        *-const
+        *-const (Não pode ser mudada)
 =========================================================================================================================
 
-    O Js é uma linguagem fracamente tipada e dinâmica
+    O Js é uma linguagem fracamente tipada e dinâmica (Fortemente tipada = tem que declarar o tipo junto. Exemplo: int var1 = 0;)
         *-Variáveis não precisam ter um tipo previamente definido
         *-Podemos mudar o conteúdo da variável
 */
