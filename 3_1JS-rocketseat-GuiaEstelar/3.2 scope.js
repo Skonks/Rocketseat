@@ -14,20 +14,21 @@
     
     ?var
         JS
-            *var é global e poderá para de funcionar fora de um escopo de bloco
+            *var é global e também local e poderá para de funcionar fora de um escopo de bloco (Global = tudo que está dentro da tag <script> | Local = o que existe dentro do escopo apenas) & (Javascript tem um conceito chamado "Hoisting" que é basicamente jogar as variáveis pra cima (?))
 
-            console.log("> existe x antes do bloco?", x)
-            {
-                var x = 0
-            }
+                console.log("> Existe x antes do bloco?", x)
+                {
+                    var x = 0
+                }
+                console.log("> Existe x depois do bloco?", x)
 =========================================================================================================================
 
     ?let & const
         JS
             *let e const são locais e só funcionam no escopo onde
 */
-
+console.log("> Existe x antes do bloco?", x)
 {
-    let x = 0
-    console.log(x)
+    var x = 0
 }
+console.log("> Existe x depois do bloco?", x)
