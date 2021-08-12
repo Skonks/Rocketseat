@@ -14,7 +14,7 @@
         *-Iniciar com números
         *-Colocar espaços vazios no nome
 
-    *-Ideal
+    *-Ideal:
         *-Criar nomes que fazem sentido
         *-Que explique o que a variável é ou faz
         *-camelCase
