@@ -3,12 +3,18 @@
 */
 // Declaração / Declaration | Agrupando declarações
 var nome
-let age, isHuman
+let age, isLinda
 
 // Assignments / Atribuição de dados
 nome = "Chris" // String
-age = 20 // Number
-isHuman = true // Boolean
+age = 18 // Number
+isLinda = true // Boolean
 
 // Que tipo de dado foi colocado na variavel
-console.log(nome, age, isHuman)
+console.log(typeof nome)
+
+// Multiplos argumentos na função
+console.log(nome, age, isLinda)
+
+// Concatenando texto + variáveis
+console.log("A " + nome + " tem " + age + " anos!")
