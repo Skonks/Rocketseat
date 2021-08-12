@@ -1,8 +1,8 @@
 /*
     Para criar nomes
 
-    *Js é case sensitive (Sensível ao caso)
-    *Js aceita a cadeira de caracteres Unicode
+    *Js é case sensitive (Sensível ao caso) | (maíusculas e minúsculas fazem diferença)
+    *Js aceita a cadeira de caracteres Unicode | (aspas e acentuações)
 
     ?-Posso:
         *-Iniciar com esses caracteres especiais: $ _
