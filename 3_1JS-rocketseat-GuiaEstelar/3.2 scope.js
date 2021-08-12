@@ -25,7 +25,13 @@
 
     ?let & const
         JS
-            *let e const são locais e só funcionam no escopo onde
+            *let e const são locais e só funcionam no escopo onde foi criada
+
+                console.log("Existe y antes do bloco?", y)
+                {
+                    let y = 0
+                }
+                console.log("Existe y depois do bloco?", y)
 */
 console.log("> Existe x antes do bloco?", x)
 {
