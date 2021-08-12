@@ -2,10 +2,16 @@
     Variáveis e tipo de dados
 */
 // Declaração / Declaration
-var name
+var nome
+let age
+let isHuman
 
 // Assignments / Atribuição de dados
-name = "Chris"
+nome = "Chris" // String
+age = 20 // Number
+isHuman = true // Boolean
 
-// Que tipo de dado é esse?
-console.log(typeof name)
+// Que tipo de dado foi colocado na variavel
+console.log(typeof nome)
+console.log(typeof age)
+console.log(typeof isHuman)
