@@ -38,3 +38,11 @@ console.log("> Existe x antes do bloco?", x)
     var x = 0
 }
 console.log("> Existe x depois do bloco?", x)
+
+
+//console.log("Existe y antes do bloco?", y) > Não existe
+{
+    let y = 0
+    console.log("Existe y depois do bloco?", y)
+}
+//console.log("Existe y depois do bloco?", y) > Existe mas ele não consegue alcançar
