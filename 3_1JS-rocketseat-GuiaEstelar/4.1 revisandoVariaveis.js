@@ -17,4 +17,7 @@ console.log(typeof nome)
 console.log(nome, age, isLinda)
 
 // Concatenando texto + variáveis
-console.log("A " + nome + " tem " + age + " anos!")
+console.log("A " + nome + " tem " + age + " anos.")
+
+// Interpolando text + variáveis com template strings
+console.log(`A ${nome} tem ${age} anos.`)
