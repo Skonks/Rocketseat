@@ -16,8 +16,8 @@
 
     *-Ideal:
         *-Criar nomes que fazem sentido
-        *-Que explique o que a variável é ou faz
-        *-camelCase
-        *-snake_case
+        *-Que explique o que a variável é ou faz (let name = "Yukie" | checkIFNameExistsAndItsYukie = name === "Yukie")
+        *-camelCase (Tudo junto exemplo: checkIFNameExistsAndItsYukie)
+        *-snake_case (Tudo junto com underline exemplo: check_if_name_existis_and_its_yukie)
         *-Escrever em inglês
 */
