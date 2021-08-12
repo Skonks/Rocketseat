@@ -9,4 +9,5 @@ const person = {
     isLinda: true
 }
 
-console.log()
+// Pegando só uma variável
+console.log(person.name, person.age)
