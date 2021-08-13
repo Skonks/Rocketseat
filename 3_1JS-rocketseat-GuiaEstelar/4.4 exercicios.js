@@ -48,17 +48,16 @@ console.log(students[0])
 
 // 7.Crie um novo student e coloque na posição 1 do array students
 
-const Margit = {
-    nome: Margit,
+const margit = {
+    nome: "Margit",
     age: 22,
     weight: 80.00,
     isSubscribed: true
 }
 
-students = [
-    student,
-    Margit
-]
-students[1] = Margit
+students[1] = margit
 console.log(students)
 
+// 8.Sem rodar o código, diga qual vai ser o resultado = Undefined acertei heheheheh
+console.log(a)
+var a = 1
