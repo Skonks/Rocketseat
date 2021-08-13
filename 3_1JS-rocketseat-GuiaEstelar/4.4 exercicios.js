@@ -21,7 +21,7 @@ let isSubscribed = false
 
 console.log(nome, age, star, isSubscribed)
 
-// Crie uma variável chamada student, veja qual é o tipo dela, atribua as mesmas propriedades e valores do exercicio acima, e mostre no console a seguinte mensagem : "name" de idade "age" pesa "weight" kg's
+// 3.Crie uma variável chamada student, veja qual é o tipo dela, atribua as mesmas propriedades e valores do exercicio acima, e mostre no console a seguinte mensagem : "name" de idade "age" pesa "weight" kg's
 
 let student = {
     nome: "Chris",
@@ -33,7 +33,12 @@ let student = {
 
 console.log(`${student.nome} de idade ${student.age} pesa ${student.weight}`)
 
-// Declare uma variável array de nome student e atribua a ela nenhum valor
-student = [
+// 4.Declare uma variável array de nome student e atribua a ela nenhum valor
+let students = []
 
+// 5.Reatribua valor para variável acima colocando dentro dela o objeto student da questão 3
+students = [
+    student
 ]
+
+console.log(students)
