@@ -42,3 +42,6 @@ students = [
 ]
 
 console.log(students)
+
+// 6.Coloque no console o valor da posição zero no array acima
+console.log(students[0])
