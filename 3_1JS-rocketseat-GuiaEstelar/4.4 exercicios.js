@@ -32,3 +32,8 @@ let student = {
 }
 
 console.log(`${student.nome} de idade ${student.age} pesa ${student.weight}`)
+
+// Declare uma variável array de nome student e atribua a ela nenhum valor
+student = [
+
+]
