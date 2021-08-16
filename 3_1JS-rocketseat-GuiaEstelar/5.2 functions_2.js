@@ -10,6 +10,6 @@ function fazerSuco(fruta1, fruta2) {
     return "suco de: " + fruta1 + fruta2
 }
 
-//fazerSuco(2, 3) // << Argumentos 
+//fazerSuco(banana, maçã) // << Argumentos 
 const copo = fazerSuco("banana", "maçã") // << Colocando coisas dentro da função
 console.log(copo) // << Recebendo as coisas transformadas
