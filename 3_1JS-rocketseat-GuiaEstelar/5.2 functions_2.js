@@ -7,7 +7,7 @@
 
 // Parâmetros só vão funcionar dentro da função (fruta1 e fruta2) 
 function fazerSuco(fruta1, fruta2) {
-    return fruta1 + fruta2
+    return "suco de: " + fruta1 + fruta2
 }
 
 //fazerSuco(2, 3) // << Argumentos 
