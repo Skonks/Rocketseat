@@ -3,7 +3,9 @@
 
     *expressão new (new Person())
     *criar um novo objeto (var Skonks = new Person())
-    *this keyword
+    *this keyword (Sempre vai ser o Skonks)
 */
-function Person() { }
-var Skonks = new Person()
+function Person(name) {
+    this.name = name
+}
+const Skonks = new Person()
