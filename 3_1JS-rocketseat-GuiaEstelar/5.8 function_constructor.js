@@ -1,3 +1,7 @@
 /*
-    Callback function (Função sendo passada por uma função)
+    function() constructor
+
+    *expressão new
+    *criar um novo objeto
+    *this keyword
 */
