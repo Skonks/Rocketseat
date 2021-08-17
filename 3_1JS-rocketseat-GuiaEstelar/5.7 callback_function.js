@@ -6,7 +6,7 @@ function sayMyName(name) {
     console.log("Antes de executar o callback")
     name()
 
-    function name (){
+    function name() {
         console.log("Estou numa callback")
     }
     name()
