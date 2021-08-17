@@ -4,7 +4,7 @@
 */
 
 //Geralmente é usada const para arrow function
-const sayMyName = () => {
-    console.log("Skonks")
+const sayMyName = (name) => {
+    console.log(name)
 }
-sayMyName()
+sayMyName("Skonks")
