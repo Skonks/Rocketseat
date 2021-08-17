@@ -9,6 +9,9 @@
 //this.skonks = parametro
 function Person(name) {
     this.name = name
+    this.walk = function () {
+        return this.name + " está andando"
+    }
 }
 const skonks = new Person("Skonks")
-console.log(skonks)
+console.log(skonks.walk())
