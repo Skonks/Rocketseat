@@ -1,7 +1,9 @@
 /*
     function() constructor
 
-    *expressão new
-    *criar um novo objeto
+    *expressão new (new Person())
+    *criar um novo objeto (var Skonks = new Person())
     *this keyword
 */
+function Person() { }
+var Skonks = new Person()
