@@ -1,11 +1,14 @@
 /*
     function() constructor
 
-    *expressão new (new Person())
-    *criar um novo objeto (var Skonks = new Person())
+    *Expressão new (new Person(parametro))
+    *Criar um novo objeto (var Skonks = new Person(parametro))
     *this keyword (Sempre vai ser o Skonks)
 */
+
+//this.skonks = parametro
 function Person(name) {
     this.name = name
 }
-const Skonks = new Person()
+const skonks = new Person("Skonks")
+console.log(skonks)
