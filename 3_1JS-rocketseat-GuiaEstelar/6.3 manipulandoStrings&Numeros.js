@@ -8,3 +8,5 @@ console.log(Number(string))
 
 let number = 3
 console.log(String(number))
+
+// Quero contar quantos caracteres tem uma palavra e quantos digitos tem um número
