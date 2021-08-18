@@ -19,3 +19,5 @@ console.log(String(numero).length) // Transformando em string para ver quantos n
 
 // ================================================================================================================
 //Transformar um número quebrado com 2 casa decimais e trocar ponto por vírgula
+let quebrado = 4032232.101010
+console.log(quebrado.toFixed(2))
