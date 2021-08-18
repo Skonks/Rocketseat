@@ -2,7 +2,7 @@
     Manipulando Strings e Numbers
 
 */
-//Transformar número em string e string em número
+// Transformar número em string e string em número
 let string = "5"
 console.log(Number(string))
 
@@ -18,12 +18,15 @@ let numero = 1234
 console.log(String(numero).length) // Transformando em string para ver quantos números tem
 
 // ================================================================================================================
-//Transformar um número quebrado com 2 casa decimais e trocar ponto por vírgula
+// Transformar um número quebrado com 2 casa decimais e trocar ponto por vírgula
 let quebrado = 403.1010
 console.log(quebrado.toFixed(2).replace(".", ","))
 
 // ================================================================================================================
-//Transforme letras minúsculas em maísculas. Faça o contrário disso também
+// Transforme letras minúsculas em maísculas. Faça o contrário disso também
 let maiscula = "Yukie Mayuzumi"
 console.log(maiscula.toUpperCase())
 console.log(maiscula.toLowerCase())
+
+// ================================================================================================================
+// Separe o texto que contem espaços, em um novo array onde cada texto é uma posição do array. Depois disso, transforme o array em um texto e onde eram espaços, coloque _
