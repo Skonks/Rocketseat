@@ -32,4 +32,6 @@ console.log(maiscula.toLowerCase())
 // Separe o texto que contem espaços, em um novo array onde cada texto é uma posição do array. Depois disso, transforme o array em um texto e onde eram espaços, coloque _
 let phrase = "Eu amo a Yukie e a Chris"
 let myArray = phrase.split(" ")
-console.log(myArray)
+console.log(myArray) // Separando o texto
+let phraseWithUnderscore = myArray.join("_")
+console.log(phraseWithUnderscore) // Colocando _
