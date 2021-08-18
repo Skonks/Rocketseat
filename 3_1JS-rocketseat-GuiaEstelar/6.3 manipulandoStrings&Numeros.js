@@ -35,3 +35,6 @@ let myArray = phrase.split(" ")
 console.log(myArray) // Separando o texto
 let phraseWithUnderscore = myArray.join("_")
 console.log(phraseWithUnderscore) // Colocando _
+
+// ================================================================================================================
+// Verificando se o testo contém a palavra "amor"
