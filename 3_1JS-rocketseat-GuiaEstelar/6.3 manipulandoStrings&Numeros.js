@@ -21,3 +21,6 @@ console.log(String(numero).length) // Transformando em string para ver quantos n
 //Transformar um número quebrado com 2 casa decimais e trocar ponto por vírgula
 let quebrado = 403.1010
 console.log(quebrado.toFixed(2).replace(".", ","))
+
+// ================================================================================================================
+//Transforme letras minúsculas em maísculas. Faça o contrário disso também
