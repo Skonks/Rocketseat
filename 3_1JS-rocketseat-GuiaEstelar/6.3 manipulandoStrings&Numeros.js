@@ -24,3 +24,6 @@ console.log(quebrado.toFixed(2).replace(".", ","))
 
 // ================================================================================================================
 //Transforme letras minúsculas em maísculas. Faça o contrário disso também
+let maiscula = "Yukie Mayuzumi"
+console.log(maiscula.toUpperCase())
+console.log(maiscula.toLowerCase())
