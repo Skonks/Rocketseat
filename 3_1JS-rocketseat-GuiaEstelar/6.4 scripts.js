@@ -1,10 +1,10 @@
 let techs = ["yukie", "chris", "margit"]
 
 //Adicionar um item no fim
-console.log(techs.push("benkei"))
+techs.push("benkei")
 
 //Adicionar no começo
-console.log(techs.unshift("kokoro"))
+techs.unshift("kokoro")
 
 //Remover do fim
 techs.pop()
@@ -20,4 +20,4 @@ techs.shift()
 
 //Encontrar a posição de um elemento no array
 
-console.log(techs)
+//console.log(techs)
