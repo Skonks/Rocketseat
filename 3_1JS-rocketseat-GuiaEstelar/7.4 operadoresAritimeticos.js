@@ -27,11 +27,12 @@ console.log(60 - 30)
 console.log(9 % 2)
 
 // Incremento
-var incremento = 20
+var incremento = 0
 console.log(++incremento)
 
 // Decremento
-var decremento = 20
+var decremento = 0
 console.log(--decremento)
 
 // Exponencial
+console.log(3 ** 3)
