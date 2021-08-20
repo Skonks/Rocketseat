@@ -20,3 +20,5 @@ let number = 1; // Vai dar erro porque a função vai pensar que o let number = 
 let numero = 1
 
 console.log(number + 1) // + é um operador binário
+console.log(++number) // Unário
+console.log(true ? "alo" : "nada") // Ternário
