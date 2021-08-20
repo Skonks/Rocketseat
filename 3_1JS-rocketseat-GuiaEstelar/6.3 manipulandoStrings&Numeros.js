@@ -50,5 +50,5 @@ console.log(meuArray)
 console.log(["a", "b", "c"].length) // Da pra colocar outros tipos de dados dentro do array tipo: function() { return "Eu amo a yukie" } | ou objeto {type: "array" }
 
 // Transformando uma cadeia de caracteres em elemento de um array
-let frases = "Cuzinho"
+let frases = "Christiane"
 console.log(Array.from(frases))
