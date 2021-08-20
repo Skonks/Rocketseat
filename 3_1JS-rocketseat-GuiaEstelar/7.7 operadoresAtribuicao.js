@@ -28,6 +28,6 @@ console.log(x)
 x %= 2
 console.log(x)
 
-// Exponetitaion assignment traduzingo: x = x ** 2
+// Exponetiation assignment traduzingo: x = x ** 2
 x **= 2
 console.log(x)
