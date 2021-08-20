@@ -8,18 +8,18 @@ console.log(x)
 x = 1
 console.log(x)
 
-// Addition assignment
+// Addition assignment traduzindo: x = x + 2
 x += 2
 console.log(x)
 
-// Subtraction assignment
+// Subtraction assignment traduzindo: x = x - 2
 x -= 1
 console.log(x)
 
-// Multiplication assignment
+// Multiplication assignment traduzindo: x = x * 2
 x *= 2
 console.log(x)
 
-// Division assignment
+// Division assignment traduzindo: x = x / 2
 x /= 2
 console.log(x)
