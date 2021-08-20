@@ -43,4 +43,7 @@ console.log(frase.includes("Christiane")) // includes é case sensitive
 
 // ================================================================================================================
 // Manipulando arrays e criar um array com construtor
-let meuArray = ["a", "b", "C"]
+let meuArray = new Array(10)
+console.log(meuArray)
+
+//
