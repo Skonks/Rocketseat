@@ -23,3 +23,11 @@ console.log(x)
 // Division assignment traduzindo: x = x / 2
 x /= 2
 console.log(x)
+
+// Remainder assignment traduzindo: x = x % 2
+x %= 2
+console.log(x)
+
+// Exponetitaion assignment traduzingo: x = x ** 2
+x **= 2
+console.log(x)
