@@ -13,7 +13,7 @@ techs.pop()
 techs.shift()
 
 //Pegar somente alguns elementos do array
-
+console.log(techs.slice(1, 3))
 
 //Remover 1 ou mais itens em qualquer posição do array
 
