@@ -1,7 +1,7 @@
 /* 
     Operadores de atribuição (Assignment)
 */
-var x
+let x
 console.log(x)
 
 // Assignment
