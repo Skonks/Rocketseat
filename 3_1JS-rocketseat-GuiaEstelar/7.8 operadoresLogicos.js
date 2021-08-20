@@ -7,7 +7,7 @@ let pao = true
 let queijo = false
 
 // and = && (Os dois precisam ser verdadeiros)
-if (pao && queijo == true) {
+if (pao && queijo === true) {
     console.log("Delicia")
 } else {
     console.log("Ew")
