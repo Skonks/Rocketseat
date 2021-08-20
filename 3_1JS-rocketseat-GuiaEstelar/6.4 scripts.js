@@ -19,7 +19,7 @@ techs.unshift("kokoro")
 //techs.splice(1, 1)
 
 //Encontrar a posição de um elemento no array
-let index = techs.indexOf("yukie")
+let index = techs.indexOf("kokoro")
 techs.splice(index, 1)
 
 console.log(techs)
