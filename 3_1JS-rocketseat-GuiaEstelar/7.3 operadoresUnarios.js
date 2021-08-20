@@ -1,0 +1,5 @@
+/* 
+    Operadores Unários
+        *-typeof
+        *-delete
+*/
