@@ -16,4 +16,5 @@ if (pao && queijo == true) {
 // or = || (Só um precisa ser verdadeiro)
 console.log(pao || queijo)
 
-// not = !
+// not = ! (Trocando de valor)
+console.log(!pao)
