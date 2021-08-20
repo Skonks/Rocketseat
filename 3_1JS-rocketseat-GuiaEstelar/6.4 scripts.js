@@ -4,13 +4,13 @@ let techs = ["yukie", "chris", "margit"]
 console.log(techs.push("benkei"))
 
 //Adicionar no começo
-
+console.log(techs.unshift("kokoro"))
 
 //Remover do fim
-
+techs.pop()
 
 //Remover do começo
-
+techs.shift()
 
 //Pegar somente alguns elementos do array
 
@@ -19,6 +19,5 @@ console.log(techs.push("benkei"))
 
 
 //Encontrar a posição de um elemento no array
-
 
 console.log(techs)
