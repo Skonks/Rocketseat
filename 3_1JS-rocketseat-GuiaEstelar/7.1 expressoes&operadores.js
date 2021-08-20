@@ -16,3 +16,7 @@ let number = 1; // Vai dar erro porque a função vai pensar que o let number = 
 })()
 
 //Operadores
+
+let numero = 1
+
+console.log(number + 1) // + é um operador binário
