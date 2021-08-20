@@ -53,4 +53,12 @@ console.log(["a", "b", "c"].length) // Da pra colocar outros tipos de dados dent
 let frases = "Cuzinho"
 console.log(Array.from(frases))
 
-/* */
+/*
+    Adicionar um item no fim
+    Adicionar no começo
+    Remover do fim
+    Remover do começo
+    Pegar somente alguns elementos do array
+    Remover 1 ou mais itens em qualquer posição do array
+    Encontrar a posição de um elemento no array
+*/
