@@ -46,4 +46,5 @@ console.log(frase.includes("Christiane")) // includes é case sensitive
 let meuArray = new Array(10)
 console.log(meuArray)
 
-//
+// Contar elementos dentro de um array
+console.log(["a", "b", "c"][0])
