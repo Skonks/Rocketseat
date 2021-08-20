@@ -47,4 +47,5 @@ let meuArray = new Array(10)
 console.log(meuArray)
 
 // Contar elementos dentro de um array
-console.log(["a", "b", "c"][0])
+console.log(["a", "b", "c"][0]) // Da pra colocar outros tipos de dados dentro do array tipo: function() { return "Eu amo a yukie" } | ou objeto {type: "array" }
+
