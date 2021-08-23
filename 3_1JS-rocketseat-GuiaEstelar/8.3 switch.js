@@ -21,6 +21,7 @@ function calculate(number1, operator, number2) {
             break;
 
         default:
+            console.log("Não implementado")
             break;
     }
 
