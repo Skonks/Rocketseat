@@ -6,8 +6,7 @@ console.log("9" + 5) // Coersion, o JS tá transformando o 5 em String
 console.log(Number("9") + 5) // Conversion, eu estou trocando
 
 /* 
-    FALSY
-        Quando um valor é considerado false em contextos aonde um booleano é obrigatório (condicionais e loop)
+    FALSY (É tipo um falso, acontece quando eles esperam um booleano e você da um desses valores, ai ele recebe um type coersion e se tranforma em falsy)
             false
             0
             -0
@@ -16,11 +15,10 @@ console.log(Number("9") + 5) // Conversion, eu estou trocando
             undefined
             NaN
 */
-
+console.log(null ? "verdadeiro" : "false")
 
 /* 
-    TRUTHY
-        Quando um valor é considerado true em contextos aonde um booleano é obrigatório (condicionais e loop)
+    TRUTHY (É tipo um verdadeiro, acontece quando eles esperam um booleano e você da um desses valores, ai ele recebe um type coersion e se tranforma em truthy)
             true
             {}
             []
