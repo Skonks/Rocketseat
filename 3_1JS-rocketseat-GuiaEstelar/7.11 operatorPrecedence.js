@@ -1,6 +1,5 @@
 /* 
     Operador precedence
-
         *-grouping  ( )
         *-negação e incremento ! ++ --
         *-multiplicação e divisão * /
