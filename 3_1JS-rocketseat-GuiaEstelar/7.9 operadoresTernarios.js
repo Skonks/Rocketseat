@@ -15,3 +15,6 @@ const niceBreakfast = pao || queijo ? "Café doido" : "Café feio"
 console.log(niceBreakfast)
 
 // Maior que 18
+let age = 18
+const canDrive = age >= 18 ? "can drive" : "can't drive"
+console.log(canDrive)
