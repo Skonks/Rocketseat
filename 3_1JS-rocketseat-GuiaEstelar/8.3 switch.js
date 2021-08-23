@@ -27,3 +27,4 @@ function calculate(number1, operator, number2) {
 
     return result
 }
+console.log(calculate(3, "*", 10))
