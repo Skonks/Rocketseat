@@ -3,7 +3,7 @@
 */
 // switch (expressão) {blocos/cases}
 function calculate(number1, operator, number2) {
-    let result
+    let result = 0;
 
     switch (operator) {
         case "+":
