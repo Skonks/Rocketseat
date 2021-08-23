@@ -6,7 +6,7 @@
 console.log("a" === "b")
 
 // Concatenação
-console.log("Lin"+"da")
+console.log("Lin" + "da")
 
 // Retorna a união de duas Strings
 let alpha = "alpha"
