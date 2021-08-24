@@ -20,33 +20,33 @@ if (notaA > 90) {
     notaA = "A"
     console.log("A nota 1 virou: " + notaA)
 } else {
-    console.log("A nota não é valida")
+    console.log("A nota 1 não é valida")
 }
 
 if (notaB >= 80 && notaB <= 89) {
     notaB = "B"
     console.log("A nota 2 virou: " + notaB)
 } else {
-    console.log("A nota não é valida")
+    console.log("A nota 2 não é valida")
 }
 
 if (notaC >= 70 && notaC <= 79) {
     notaC = "C"
     console.log("A nota 3 virou: " + notaC)
 } else {
-    console.log("A nota não é valida")
+    console.log("A nota 3 não é valida")
 }
 
 if (notaD >= 60 && notaD <= 69) {
     notaD = "D"
     console.log("A nota 4 virou: " + notaD)
 } else {
-    console.log("A nota não é valida")
+    console.log("A nota 4 não é valida")
 }
 
 if (notaF < 60) {
     notaF = "F"
     console.log("A nota 5 virou: " + notaF)
 } else {
-    console.log("A nota não é valida")
+    console.log("A nota 5 não é valida")
 }
