@@ -9,6 +9,8 @@
     *-Entre 70 - 79 = C
     *-Entre 60 - 69 = D
     *-Menor que 60 = F
+
+    Resultado: Ele fez de um jeito melhor mas ambos funcionam
 */
 let notaA = 91
 let notaB = 85
