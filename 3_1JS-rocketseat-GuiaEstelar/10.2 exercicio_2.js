@@ -15,5 +15,9 @@ let gastosFamiliar = {
 }
 
 function balance(incomes, expenses) {
-    console.log("Teste")
+    if (incomes > expenses) {
+        console.log("O saldo é maior")
+    } else {
+        console.log("O custo é maior")
+    }
 }
